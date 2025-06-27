@@ -1,0 +1,7 @@
+requests
+dotenv
+anthropic
+uvicorn
+fastapi
+google
+google-generativeai

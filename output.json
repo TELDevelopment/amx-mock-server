@@ -1,0 +1,2786 @@
+[
+  {
+    "api_name": "user/startheaderinfo",
+    "api_url": "https://mfwkstbzte-api.clarovideo.net/services/user/startheaderinfo?authpn=tataelxsi&authpt=vofee7ohhecai&HKS=",
+    "method": "GET",
+    "headers": null,
+    "body": null,
+    "success_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "HKS": ""
+      },
+      "response": {
+        "region": "peru",
+        "session_stringvalue": "pb5o13adeulfp8lspqel102vi3",
+        "session_parametername": "HKS",
+        "date": "2023-02-12",
+        "time": "22:52:23",
+        "timezone": "America/Lima",
+        "utc": -5
+      },
+      "status": "0",
+      "msg": "OK"
+    },
+    "error_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai"
+      },
+      "response": {
+        "Error": "Region no soportada"
+      },
+      "status": 1,
+      "msg": "ERROR",
+      "errors": {
+        "error": ["error_params_region"],
+        "code": "error_params_region"
+      }
+    },
+    "api_response": null,
+    "similarity_result": null
+  },
+  {
+    "api_name": "nav/data",
+    "api_url": "https://mfwkstbzte-api.clarovideo.net/services/nav/data?authpn=tataelxsi&authpt=vofee7ohhecai&device_category=stb&device_type=ptv&device_model=androidTV&device_manufacturer=ZTE&HKS=63eb2f6aebf9b&api_version=v5.93&region=peru&device_id=ZTEATV41200438564&device_so=Android%2010&format=json&device_name=B866V2_AMX_ATV_PE",
+    "method": "GET",
+    "headers": null,
+    "body": null,
+    "success_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_category": "stb",
+        "device_type": "ptv",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "HKS": "63eb2f6aebf9b",
+        "api_version": "v5.93",
+        "region": "peru",
+        "device_id": "ZTEATV41200438564",
+        "device_so": "Android 10",
+        "format": "json",
+        "device_name": "B866V2_AMX_ATV_PE"
+      },
+      "response": {
+        "nodes": [
+          {
+            "id": "172069",
+            "id_parent": "172067",
+            "code": "homeuser",
+            "text": "Inicio",
+            "menu_id": "1671",
+            "image": null,
+            "image_over": null,
+            "level": 1,
+            "type": "dest",
+            "order": "12",
+            "status": "1",
+            "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+            "provider_name": null
+          },
+          {
+            "id": "172070",
+            "id_parent": "172067",
+            "code": "clarosports",
+            "text": "Claro Sports",
+            "menu_id": "1671",
+            "image": null,
+            "image_over": null,
+            "level": 1,
+            "type": "dest",
+            "order": "15",
+            "status": "1",
+            "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false }, \"menu_type\": \"second_menu\" }",
+            "provider_name": null
+          },
+          {
+            "id": "230770",
+            "id_parent": "172067",
+            "code": "apps",
+            "text": "APPS",
+            "menu_id": "1671",
+            "image": null,
+            "image_over": null,
+            "level": 1,
+            "type": "dest",
+            "order": "16",
+            "status": "1",
+            "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+            "provider_name": null
+          },
+          {
+            "id": "172073",
+            "id_parent": "172067",
+            "code": "catalogo",
+            "text": "Cat\u00e1logo",
+            "menu_id": "1671",
+            "image": null,
+            "image_over": null,
+            "level": 1,
+            "type": "dest",
+            "order": "20",
+            "status": "1",
+            "app_behaviour": "{ \"layout\":\"nolayout\", \"node_config\":{ \"show_node\":false, \"show_title\":false, \"vis\":{ \"anon\": 0, \"loggedin\": 0 } }, \"menu_type\": \"second_menu\" }",
+            "provider_name": null,
+            "childs": [
+              {
+                "id": "172089",
+                "id_parent": "172073",
+                "code": "paramount",
+                "text": "Paramount+",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "9",
+                "status": "1",
+                "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                "provider_name": "paramount",
+                "childs": [
+                  {
+                    "id": "172179",
+                    "id_parent": "172089",
+                    "code": "paramountseries",
+                    "text": "Series",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "1",
+                    "status": "1",
+                    "app_behaviour": null,
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172180",
+                    "id_parent": "172089",
+                    "code": "paramountpeliculas",
+                    "text": "Pel\u00edculas",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "2",
+                    "status": "1",
+                    "app_behaviour": null,
+                    "provider_name": null
+                  },
+                  {
+                    "id": "301188",
+                    "id_parent": "172089",
+                    "code": "paramount_kids",
+                    "text": "NI\u00d1OS",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "3",
+                    "status": "1",
+                    "app_behaviour": null,
+                    "provider_name": "paramount"
+                  }
+                ]
+              },
+              {
+                "id": "172090",
+                "id_parent": "172073",
+                "code": "sapeliculas",
+                "text": "Pel\u00edculas",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "10",
+                "status": "1",
+                "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                "provider_name": null
+              },
+              {
+                "id": "172091",
+                "id_parent": "172073",
+                "code": "saseries",
+                "text": "Series",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "20",
+                "status": "1",
+                "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                "provider_name": null
+              },
+              {
+                "id": "172092",
+                "id_parent": "172073",
+                "code": "samusica",
+                "text": "M\u00fasica",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "30",
+                "status": "1",
+                "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                "provider_name": null
+              },
+              {
+                "id": "172093",
+                "id_parent": "172073",
+                "code": "deportes",
+                "text": "Deportes",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "71",
+                "status": "1",
+                "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                "provider_name": null
+              },
+              {
+                "id": "172094",
+                "id_parent": "172073",
+                "code": "documentales",
+                "text": "Documentales",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "72",
+                "status": "1",
+                "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                "provider_name": null
+              },
+              {
+                "id": "172095",
+                "id_parent": "172073",
+                "code": "latinoamerica",
+                "text": "Latinoam\u00e9rica",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "73",
+                "status": "1",
+                "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                "provider_name": null
+              },
+              {
+                "id": "172096",
+                "id_parent": "172073",
+                "code": "karaoke",
+                "text": "Karaoke",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "79",
+                "status": "1",
+                "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                "provider_name": null
+              }
+            ]
+          },
+          {
+            "id": "172076",
+            "id_parent": "172067",
+            "code": "peliculas",
+            "text": "Pel\u00edculas",
+            "menu_id": "1671",
+            "image": null,
+            "image_over": null,
+            "level": 1,
+            "type": "dest",
+            "order": "24",
+            "status": "1",
+            "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+            "provider_name": null,
+            "childs": [
+              {
+                "id": "172118",
+                "id_parent": "172076",
+                "code": "accionaventura",
+                "text": "Acci\u00f3n y Aventura",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "1",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172119",
+                "id_parent": "172076",
+                "code": "animeyvideojuego",
+                "text": "Anime",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "2",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172120",
+                "id_parent": "172076",
+                "code": "biografia",
+                "text": "Biograf\u00edas",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "3",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172121",
+                "id_parent": "172076",
+                "code": "peli_cienciafi",
+                "text": "Ciencia Ficci\u00f3n",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "4",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172123",
+                "id_parent": "172076",
+                "code": "cineoro",
+                "text": "Cine de Oro",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "6",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172124",
+                "id_parent": "172076",
+                "code": "peli_clasica",
+                "text": "Cl\u00e1sicas",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "8",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172125",
+                "id_parent": "172076",
+                "code": "peli_comedia",
+                "text": "Comedia",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "9",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172127",
+                "id_parent": "172076",
+                "code": "peli_deportes",
+                "text": "Deportes",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "13",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172128",
+                "id_parent": "172076",
+                "code": "peli_documentales",
+                "text": "Documentales",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "15",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172129",
+                "id_parent": "172076",
+                "code": "peli_drama",
+                "text": "Drama",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "16",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172130",
+                "id_parent": "172076",
+                "code": "peli_familiares",
+                "text": "Familiares",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "17",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172131",
+                "id_parent": "172076",
+                "code": "peli_infantiles",
+                "text": "Infantiles",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "19",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172132",
+                "id_parent": "172076",
+                "code": "peli_latinoamerica",
+                "text": "Latinoamericanas",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "21",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172133",
+                "id_parent": "172076",
+                "code": "peli_mexicanas",
+                "text": "Mexicanas",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "22",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172134",
+                "id_parent": "172076",
+                "code": "peli_musica",
+                "text": "M\u00fasica",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "23",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172135",
+                "id_parent": "172076",
+                "code": "paramount_pelis",
+                "text": "Paramount+",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "25",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172136",
+                "id_parent": "172076",
+                "code": "peli_romanticas",
+                "text": "Rom\u00e1nticas",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "27",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172137",
+                "id_parent": "172076",
+                "code": "peli_suspenso",
+                "text": "Terror y Suspenso",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "28",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172139",
+                "id_parent": "172076",
+                "code": "karaokes_pelis",
+                "text": "Karaokes",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "30",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              }
+            ]
+          },
+          {
+            "id": "172077",
+            "id_parent": "172067",
+            "code": "seriesnv",
+            "text": "Series",
+            "menu_id": "1671",
+            "image": null,
+            "image_over": null,
+            "level": 1,
+            "type": "dest",
+            "order": "26",
+            "status": "1",
+            "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+            "provider_name": null,
+            "childs": [
+              {
+                "id": "172140",
+                "id_parent": "172077",
+                "code": "accionyaventura",
+                "text": "Acci\u00f3n y Aventura",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "1",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172141",
+                "id_parent": "172077",
+                "code": "animeyvideojuegos",
+                "text": "Anime",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "2",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172142",
+                "id_parent": "172077",
+                "code": "biografias",
+                "text": "Biograf\u00edas",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "3",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172144",
+                "id_parent": "172077",
+                "code": "comicas",
+                "text": "C\u00f3micas",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "5",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172145",
+                "id_parent": "172077",
+                "code": "deporte",
+                "text": "Deportes",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "9",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172147",
+                "id_parent": "172077",
+                "code": "documental",
+                "text": "Documentales",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "12",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172148",
+                "id_parent": "172077",
+                "code": "dramas",
+                "text": "Dramas",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "14",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172149",
+                "id_parent": "172077",
+                "code": "espaniolas",
+                "text": "Espa\u00f1olas",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "15",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172150",
+                "id_parent": "172077",
+                "code": "familiar_series",
+                "text": "Familiares",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "16",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172151",
+                "id_parent": "172077",
+                "code": "historicas_series",
+                "text": "Hist\u00f3ricas",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "17",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172152",
+                "id_parent": "172077",
+                "code": "infantiles",
+                "text": "Infantiles",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "18",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172153",
+                "id_parent": "172077",
+                "code": "latinoamericanas",
+                "text": "Latinoamericanas",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "19",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              },
+              {
+                "id": "172154",
+                "id_parent": "172077",
+                "code": "paramount_series",
+                "text": "Paramount+",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "21",
+                "status": "1",
+                "app_behaviour": "{\"layout\": \"filterbygenre\"}",
+                "provider_name": null
+              }
+            ]
+          },
+          {
+            "id": "172081",
+            "id_parent": "172067",
+            "code": "niniosnv",
+            "text": "Kids",
+            "menu_id": "1671",
+            "image": null,
+            "image_over": null,
+            "level": 1,
+            "type": "dest",
+            "order": "32",
+            "status": "1",
+            "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false }, \"menu_type\": \"second_menu\" }",
+            "provider_name": null
+          },
+          {
+            "id": "172078",
+            "id_parent": "172067",
+            "code": "playandgo",
+            "text": "Premium",
+            "menu_id": "1671",
+            "image": null,
+            "image_over": null,
+            "level": 1,
+            "type": "dest",
+            "order": "34",
+            "status": "1",
+            "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+            "provider_name": null,
+            "childs": [
+              {
+                "id": "172159",
+                "id_parent": "172078",
+                "code": "pandg_hbo",
+                "text": "HBO",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "3",
+                "status": "1",
+                "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                "provider_name": "hbo",
+                "childs": [
+                  {
+                    "id": "172240",
+                    "id_parent": "172159",
+                    "code": "hbo_peliculas",
+                    "text": "Pel\u00edculas",
+                    "menu_id": "1671",
+                    "image": "https://clarovideocdn0-a.akamaihd.net/pregeneracion//cms/tree/1111/17952-normal.png",
+                    "image_over": "https://clarovideocdn0-a.akamaihd.net/pregeneracion//cms/tree/1111/17952-over.png",
+                    "level": 3,
+                    "type": "list",
+                    "order": "1",
+                    "status": "1",
+                    "app_behaviour": null,
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172241",
+                    "id_parent": "172159",
+                    "code": "hbo_series",
+                    "text": "Series",
+                    "menu_id": "1671",
+                    "image": "https://clarovideocdn0-a.akamaihd.net/pregeneracion//cms/tree/1111/17874-normal.png",
+                    "image_over": "https://clarovideocdn0-a.akamaihd.net/pregeneracion//cms/tree/1111/17874-over.png",
+                    "level": 3,
+                    "type": "list",
+                    "order": "2",
+                    "status": "1",
+                    "app_behaviour": null,
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172242",
+                    "id_parent": "172159",
+                    "code": "hbo_especiales",
+                    "text": "Especiales",
+                    "menu_id": "1671",
+                    "image": "https://clarovideocdn0-a.akamaihd.net/pregeneracion//cms/tree/1111/17972-normal.png",
+                    "image_over": "https://clarovideocdn0-a.akamaihd.net/pregeneracion//cms/tree/1111/17972-over.png",
+                    "level": 3,
+                    "type": "list",
+                    "order": "3",
+                    "status": "1",
+                    "app_behaviour": null,
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172243",
+                    "id_parent": "172159",
+                    "code": "hbo_infantil",
+                    "text": "Infantil",
+                    "menu_id": "1671",
+                    "image": "https://clarovideocdn0-a.akamaihd.net/pregeneracion//cms/tree/1111/17973-normal.png",
+                    "image_over": "https://clarovideocdn0-a.akamaihd.net/pregeneracion//cms/tree/1111/17973-over.png",
+                    "level": 3,
+                    "type": "list",
+                    "order": "4",
+                    "status": "1",
+                    "app_behaviour": null,
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172244",
+                    "id_parent": "172159",
+                    "code": "hbo_documentales",
+                    "text": "Documentales",
+                    "menu_id": "1671",
+                    "image": "https://clarovideocdn0-a.akamaihd.net/pregeneracion//cms/tree/1111/17935-normal.png",
+                    "image_over": "https://clarovideocdn0-a.akamaihd.net/pregeneracion//cms/tree/1111/17935-over.png",
+                    "level": 3,
+                    "type": "list",
+                    "order": "5",
+                    "status": "1",
+                    "app_behaviour": null,
+                    "provider_name": null
+                  }
+                ]
+              },
+              {
+                "id": "172163",
+                "id_parent": "172078",
+                "code": "picardia",
+                "text": "PICARD\u00cdA NACIONAL",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "4",
+                "status": "1",
+                "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                "provider_name": "picardia",
+                "childs": [
+                  {
+                    "id": "172247",
+                    "id_parent": "172163",
+                    "code": "sexycomedias",
+                    "text": "Sexycomedias",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "1",
+                    "status": "1",
+                    "app_behaviour": null,
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172248",
+                    "id_parent": "172163",
+                    "code": "narcos",
+                    "text": "Narcos",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "20",
+                    "status": "1",
+                    "app_behaviour": null,
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172249",
+                    "id_parent": "172163",
+                    "code": "picardia_drama",
+                    "text": "Drama",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "24",
+                    "status": "1",
+                    "app_behaviour": null,
+                    "provider_name": null
+                  }
+                ]
+              },
+              {
+                "id": "172161",
+                "id_parent": "172078",
+                "code": "edye",
+                "text": "Edye",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "6",
+                "status": "1",
+                "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                "provider_name": "edye"
+              },
+              {
+                "id": "172166",
+                "id_parent": "172078",
+                "code": "stingrayqello",
+                "text": "Qello Concerts",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "11",
+                "status": "1",
+                "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                "provider_name": "stingrayqello",
+                "childs": [
+                  {
+                    "id": "172261",
+                    "id_parent": "172166",
+                    "code": "qelloesenciales",
+                    "text": "Qello Esenciales",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "1",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172262",
+                    "id_parent": "172166",
+                    "code": "qellonovedades",
+                    "text": "Novedades",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "3",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172263",
+                    "id_parent": "172166",
+                    "code": "qelloespanol",
+                    "text": "En espa\u00f1ol",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "5",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172264",
+                    "id_parent": "172166",
+                    "code": "qellorock",
+                    "text": "Rock",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "10",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172265",
+                    "id_parent": "172166",
+                    "code": "qellopop",
+                    "text": "Pop",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "13",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172266",
+                    "id_parent": "172166",
+                    "code": "qellohiphop",
+                    "text": "Hip Hop y R&B",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "22",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172267",
+                    "id_parent": "172166",
+                    "code": "qelloalternativo",
+                    "text": "Alternativo",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "25",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172268",
+                    "id_parent": "172166",
+                    "code": "quellotodos",
+                    "text": "Todos los programas",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "30",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  }
+                ]
+              },
+              {
+                "id": "172165",
+                "id_parent": "172078",
+                "code": "stingraykaraoke",
+                "text": "Stingray Karaoke",
+                "menu_id": "1671",
+                "image": null,
+                "image_over": null,
+                "level": 2,
+                "type": "dest",
+                "order": "14",
+                "status": "1",
+                "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                "provider_name": "stingraykaraoke",
+                "childs": [
+                  {
+                    "id": "172250",
+                    "id_parent": "172165",
+                    "code": "karaokefiesta",
+                    "text": "Fiesta de Karaoke",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "1",
+                    "status": "1",
+                    "app_behaviour": null,
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172251",
+                    "id_parent": "172165",
+                    "code": "karaokeespanol",
+                    "text": "En Espa\u00f1ol",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "3",
+                    "status": "1",
+                    "app_behaviour": null,
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172252",
+                    "id_parent": "172165",
+                    "code": "karaokeportugues",
+                    "text": "Em Portugu\u00eas",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "5",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172253",
+                    "id_parent": "172165",
+                    "code": "karaokeplaylist",
+                    "text": "Playlists",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "7",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172254",
+                    "id_parent": "172165",
+                    "code": "karaokepop",
+                    "text": "Pop",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "10",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172255",
+                    "id_parent": "172165",
+                    "code": "karaokerock",
+                    "text": "Rock",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "15",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172256",
+                    "id_parent": "172165",
+                    "code": "karaokehiphop",
+                    "text": "R&B/Hip-Hop",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "17",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172257",
+                    "id_parent": "172165",
+                    "code": "karaokedisney",
+                    "text": "Disney",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "19",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172258",
+                    "id_parent": "172165",
+                    "code": "karaokeninos",
+                    "text": "Ni\u00f1os",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "22",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172259",
+                    "id_parent": "172165",
+                    "code": "karaokeclasicos",
+                    "text": "Cl\u00e1sicos",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "25",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  },
+                  {
+                    "id": "172260",
+                    "id_parent": "172165",
+                    "code": "karaokefestivos",
+                    "text": "Festivos",
+                    "menu_id": "1671",
+                    "image": null,
+                    "image_over": null,
+                    "level": 3,
+                    "type": "list",
+                    "order": "29",
+                    "status": "1",
+                    "app_behaviour": "{ \"layout\":\"playandgo\", \"node_config\":{ \"show_node\":true, \"show_title\":false } }",
+                    "provider_name": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "172086",
+            "id_parent": "172067",
+            "code": "miscontenidos",
+            "text": "Mis contenidos",
+            "menu_id": "1671",
+            "image": null,
+            "image_over": null,
+            "level": 1,
+            "type": "dest",
+            "order": "48",
+            "status": "1",
+            "app_behaviour": "{ \"layout\":\"nolayout\", \"node_config\":{ \"show_node\":true, \"show_title\":false, \"vis\":{ \"anon\": 0 } }, \"menu_type\": \"second_menu\" }",
+            "provider_name": null
+          },
+          {
+            "id": "172080",
+            "id_parent": "172067",
+            "code": "nagratv",
+            "text": "TV en Vivo",
+            "menu_id": "1671",
+            "image": null,
+            "image_over": null,
+            "level": 1,
+            "type": "dest",
+            "order": "36",
+            "status": "1",
+            "app_behaviour": "{ \"node_config\":{ \"show_node\":true, \"show_title\":false }, \"menu_type\": \"second_menu\" }",
+            "provider_name": null
+          }
+        ]
+      },
+      "status": "0",
+      "msg": "OK"
+    },
+    "error_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_category": "stb",
+        "device_type": "ptv",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "HKS": "63eb2f6aebf9b",
+        "api_version": "v5.93",
+        "region": "peru",
+        "device_id": "ZTEATV41200438564",
+        "device_so": "Android 10",
+        "format": "json",
+        "device_name": "B866V2_AMX_ATV_PE"
+      },
+      "response": null,
+      "status": "1",
+      "msg": "ERROR",
+      "errors": {
+        "error": ["error_nav_unavailable"],
+        "code": "error_nav_unavailable"
+      }
+    },
+    "api_response": null,
+    "similarity_result": null
+  },
+  {
+    "api_name": "user/register",
+    "api_url": "https://mfwkstbzte-api.clarovideo.net/services/user/register?authpn=tataelxsi&authpt=vofee7ohhecai&prueba=test2&device_category=STB&device_type=ptv&device_model=androidTV&device_manufacturer=ZTE&HKS=b8sdk84n7qeoo3vgnni4767f05&api_version=v5.93&region=peru&email=testuser@gmail.com&password=Test1234&accepterms=1",
+    "method": "GET",
+    "headers": null,
+    "body": null,
+    "success_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "prueba": "test2",
+        "device_category": "STB",
+        "device_type": "ptv",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "HKS": "63a98f6572b16",
+        "api_version": "v5.93",
+        "region": "peru",
+        "email": "devuser111@gmail.com",
+        "password": "Test1234",
+        "accepterms": "1",
+        "cache": "all"
+      },
+      "response": {
+        "user_id": "76857678",
+        "parent_id": "76857678",
+        "admin": true,
+        "username": "devuser111@gmail.com",
+        "email": "devuser111@gmail.com",
+        "firstname": "Administrador",
+        "lastname": "Apellido",
+        "is_kids": "false",
+        "country_code": "PE",
+        "region": "peru",
+        "subregion": null,
+        "city": null,
+        "session_servername": "10.232.1.242",
+        "session_stringvalue": "63bd46182d3ac",
+        "session_parametername": "HKS",
+        "session_userhash": "NzY4NTc2Nzh8MTY3MzM0ODYzMXw2OTU4YjJlMTQ1ZGY3YjgwYTZkODU0OTMwYjRhNzkyODEyMmM3Y2YyNDI4MmNlOTUyMQ==",
+        "language": "ES",
+        "status": "success",
+        "newWorkflow": 1,
+        "lasttouch": {
+          "seen": "63bd4617571c6",
+          "favorited": "63bd4617571c6",
+          "purchased": "63bd4617571c6",
+          "profile": 1673348631,
+          "reminder": 1673348631
+        },
+        "accepted_terms": 1,
+        "superhighlight": [
+          "no_susc",
+          "no_suscripto_nbatv",
+          "no_suscripto_rtveplay",
+          "no_suscripto_amco",
+          "no_suscripto_fox_sports",
+          "no_suscripto_hbo",
+          "no_suscripto_crackle",
+          "no_suscripto_noggin",
+          "no_suscripto_picardia_nacional",
+          "no_suscripto_fox",
+          "no_suscripto_indycar",
+          "no_suscripto_edye",
+          "no_suscripto_paramount",
+          "no_suscripto_cvperu",
+          "no_suscripto_win_sports_plus",
+          "no_suscripto_stingraykaraoke",
+          "no_suscripto_stingrayqello",
+          "no_suscripto_atresplayer",
+          "no_suscripto_cdf_hd",
+          "no_suscripto_starzplay"
+        ],
+        "subscriptions": [],
+        "purchase": {
+          "count": 0,
+          "url": "https://mfwkstbzte-api.clarovideo.net/services/payway/workflowstart?object_type=A&user_id=76857678"
+        },
+        "hasSavedPayway": 0,
+        "hasUserSusc": 0,
+        "socialNetworks": [],
+        "gamification_id": "63bd4617a3125a3c4a17aa27",
+        "counterValidEmail": 0,
+        "validEmail": true,
+        "password_recovered": false,
+        "user_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzMzNDgzMzIsImV4cCI6MTY3ODUzMjYzMiwidXNyIjp7InVzZXJfaWQiOiI3Njg1NzY3OCIsInVzZXJfdHlwZSI6IkNQRU5PVklQIiwidXNlcm5hbWUiOiJkZXZ1c2VyMTExQGdtYWlsLmNvbSIsImVtYWlsIjoiZGV2dXNlcjExMUBnbWFpbC5jb20iLCJmaXJzdG5hbWUiOiJBZG1pbmlzdHJhZG9yIiwibGFzdG5hbWUiOiJBcGVsbGlkbyIsImNvdW50cnlfY29kZSI6IlBFIiwicmVnaW9uIjoicGVydSIsImFjY2VwdGVkX3Rlcm1zIjoxLCJnYW1pZmljYXRpb25faWQiOiI2M2JkNDYxN2EzMTI1YTNjNGExN2FhMjciLCJwYXJlbnRfaWQiOiI3Njg1NzY3OCIsImFjY291bnQiOm51bGwsImFkbWluIjp0cnVlfX0.CdmlTK6_xxRz4yJOguWcUhXMKjGX16qGZHrJrP2L-sw",
+        "user_session": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzMzNDgzMzIsImV4cCI6MTY3ODUzMjYzMiwidXNyIjp7IldHIjp7IlBBSVMiOiIiLCJDT1VOVFJZQ09ERV9JUCI6IiIsIlJFR0lPTiI6IiIsIk5PTUJSRV9SRUdJT04iOiIiLCJJRElPTUEiOiIiLCJJRCI6IiIsImlwUmVtb3RlQWRkcmVzcyI6IiJ9LCJ1c3VhcmlvIjp7InN0b3JhZ2UiOnsiQUNUSVZPIjoiSCIsIklEX1VTVUFSSU8iOiI3Njg1NzY3OCIsIlVTRVJOQU1FIjoiZGV2dXNlcjExMUBnbWFpbC5jb20iLCJFTUFJTCI6ImRldnVzZXIxMTFAZ21haWwuY29tIiwiTk9NQlJFIjoiQWRtaW5pc3RyYWRvciIsIkFQRUxMSURPIjoiQXBlbGxpZG8iLCJQSU5fUEFSRU5UQUwiOm51bGwsIkNMQVNJRklDQUNJT05fUEFSRU5UQUwiOm51bGwsIlRFUk1JTk9TX0FDRVBUQURPUyI6IlMiLCJUSVBPX1VTVUFSSU8iOiJDUEVOT1ZJUCIsIlFVSUVSRV9BRFVMVE8iOiJOIiwiSURfU0tJTiI6IjEiLCJJRF9TUEMiOm51bGwsIk5PTUJSRV9TS0lOIjpudWxsLCJFU1RBRE8iOm51bGwsIkVTVEFET19BQ1RJVk8iOiIxIiwiRVhUX0lEX1VTVV9QQVJUTkVSIjoiZGV2dXNlcjExMUBnbWFpbC5jb20iLCJFWFRfSURfU0VTX1BBUlRORVIiOm51bGwsIkVYVF9JRF9VU1VfQUNDT1VOVCI6bnVsbCwiRVhUX0lEX1VTVV9QUk9EVUNUIjpudWxsLCJVU0VSX1BST0RVQ1QiOm51bGwsIlVTRVJfUFJPRFVDVF9UWVBFIjpudWxsLCJNRURJT19QQUdPX1NVU0NfR0FURVdBWV9OQU1FIjpudWxsLCJQQUlTX1VTVUFSSU8iOiJQRSIsIlJFR0lPTl9VU1VBUklPIjoicGVydSIsIlNVQlJFR0lPTl9VU1VBUklPIjpudWxsLCJDSVVEQURfVVNVQVJJTyI6bnVsbCwiSURfTUVESU9fUEFHT19NT05FREEiOmZhbHNlLCJJRF9NRURJT19QQUdPIjpmYWxzZSwiTk9NQlJFX01FRElPX1BBR08iOmZhbHNlLCJNT05FREEiOmZhbHNlLCJNRURJT19QQUdPX0dBVEVXQVlfTkFNRSI6ZmFsc2UsIkZFQ0hBX05BQ0lNSUVOVE8iOm51bGwsIkZFQ0hBX0FMVEEiOiIxMC1FTkUtMjMiLCJMT0dJTl9GRUNIQSI6bnVsbCwiUkVEU09DSUFMTkVUV09SSyI6bnVsbCwiSURfVVNVQVJJT19TT0NJQUwiOm51bGwsIkVYVFJBX0RBVEEiOm51bGwsIlNPQ0lBTF9ORVRXT1JLUyI6W3siaWRfdXN1YXJpbyI6Ijc2ODU3Njc4IiwiaWRfdXN1YXJpb19zb2NpYWwiOiI2M2JkNDYxN2EzMTI1YTNjNGExN2FhMjciLCJyZWRzb2NpYWwiOiJJTVVTSUNBIiwiZXh0cmFfZGF0YSI6bnVsbH1dLCJTRVNJT05fRkVDSEEiOjE2NzMzNDg2MzEsIkNPVU5URVJfVkFMSURfRU1BSUwiOjAsIlBBUkVOVF9JRCI6Ijc2ODU3Njc4IiwiQURNSU4iOnRydWUsIkZBQ0VCT09LX0lEIjpudWxsLCJQUk9GSUxFX0dST1VQX0NSRUFURUQiOmZhbHNlLCJQQVNTV09SRF9SRUNPVkVSRUQiOmZhbHNlLCJHQU1JRklDQVRJT05fSUQiOiI2M2JkNDYxN2EzMTI1YTNjNGExN2FhMjciLCJJU19LSURTIjoiZmFsc2UiLCJBQ0NPVU5UIjpudWxsfX19fQ.yAOhrFpm7wVF7VYY8s81-zmZJkLQ8UWX3P0ehz3tDU4"
+      },
+      "status": "0",
+      "msg": "OK"
+    },
+    "error_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "prueba": "test2",
+        "device_category": "STB",
+        "device_type": "ptv",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "HKS": "63a98f6572b16",
+        "api_version": "v5.93",
+        "region": "peru",
+        "email": "testuser11@gmail.com",
+        "password": "Test1234",
+        "accepterms": "1"
+      },
+      "response": null,
+      "status": "1",
+      "msg": "ERROR",
+      "errors": {
+        "type": "internal",
+        "error": ["The email testuser11@gmail.com its already registered."],
+        "code": "USR_REG_00005"
+      }
+    },
+    "api_response": null,
+    "similarity_result": null
+  },
+  {
+    "api_name": "user/login",
+    "api_url": "https://mfwkstbzte-api.clarovideo.net/services/user/login?authpn=tataelxsi&authpt=vofee7ohhecai&device_category=stb&device_manufacturer=ZTE&HKS=3m5e32tdiro9agb386e062obn7&api_version=v5.93&region=peru&device_id=ZTEATV41200122422&format=json&username=devuser1%40gmail.com&password=Tata1234&userhash=&includpaywayprofile=1%20HTTP/1.1",
+    "method": "GET",
+    "headers": null,
+    "body": null,
+    "success_response": {
+      "entry": {
+        "username": "devuser1@gmail.com",
+        "password": "Tata1234",
+        "HKS": "63a98f6572b16",
+        "api_version": "v5.93",
+        "format": "json",
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_manufacturer": "ZTE",
+        "device_category": "STB",
+        "device_id": "ZTEATV41200122422",
+        "region": "mexico",
+        "cache": "all"
+      },
+      "response": {
+        "user_id": "67292076",
+        "parent_id": "67292076",
+        "admin": true,
+        "username": "devuser1@gmail.com",
+        "email": "devuser1@gmail.com",
+        "firstname": "Administrador",
+        "is_kids": "false",
+        "lastname": "Apellido",
+        "country_code": "PE",
+        "region": "peru",
+        "subregion": null,
+        "city": null,
+        "session_servername": "10.128.1.38",
+        "session_stringvalue": "(63a98f6572b16)",
+        "session_parametername": "HKS",
+        "session_userhash": "NjcyOTIwNzZ8MTY3MzM0ODg3MXw2MWIxMjY3YWJkZDA5MDdlZmY2ZjViMmMyYjAyOGIyOWViMmM0YjJiODY3NThhNmNiNA==",
+        "language": "ES",
+        "status": "success",
+        "newWorkflow": 1,
+        "lasttouch": {
+          "seen": "63bd4707e209f",
+          "favorited": "63bd4707e3086",
+          "purchased": "63bd4707e4184",
+          "profile": "1673348871",
+          "reminder": "1673348871"
+        },
+        "accepted_terms": 1,
+        "superhighlight": [
+          "no_susc",
+          "no_suscripto_amco",
+          "no_suscripto_fox_sports",
+          "no_suscripto_hbo",
+          "no_suscripto_crackle",
+          "no_suscripto_noggin",
+          "no_suscripto_picardia_nacional",
+          "no_suscripto_fox",
+          "no_suscripto_indycar",
+          "no_suscripto_edye",
+          "no_suscripto_paramount",
+          "no_suscripto_cvperu",
+          "no_suscripto_stingraykaraoke",
+          "no_suscripto_stingrayqello",
+          "no_suscripto_atresplayer",
+          "no_suscripto_cdf_hd"
+        ],
+        "subscriptions": [],
+        "purchase": {
+          "count": 0,
+          "url": "http://mfwk-claroperu-homolog.clarovideo.net/services/payway/workflowstart?object_type=A&user_id=67292076"
+        },
+        "hasSavedPayway": 0,
+        "hasUserSusc": 0,
+        "socialNetworks": [
+          {
+            "id_usuario": "67292076",
+            "id_usuario_social": "62b95efa94496b58a53ddc94",
+            "redsocial": "IMUSICA",
+            "extra_data": null
+          }
+        ],
+        "gamification_id": "62b95efa94496b58a53ddc94",
+        "counterValidEmail": 0,
+        "validEmail": true,
+        "password_recovered": false,
+        "user_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzMzNDg1NzIsImV4cCI6MTY3ODUzMjg3MiwidXNyIjp7InVzZXJfaWQiOiI2NzI5MjA3NiIsInVzZXJfdHlwZSI6IkNQRU5PVklQIiwidXNlcm5hbWUiOiJkZXZ1c2VyMUBnbWFpbC5jb20iLCJlbWFpbCI6ImRldnVzZXIxQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6IkFkbWluaXN0cmFkb3IiLCJsYXN0bmFtZSI6IkFwZWxsaWRvIiwiY291bnRyeV9jb2RlIjoiUEUiLCJyZWdpb24iOiJwZXJ1IiwiYWNjZXB0ZWRfdGVybXMiOjEsImdhbWlmaWNhdGlvbl9pZCI6IjYyYjk1ZWZhOTQ0OTZiNThhNTNkZGM5NCIsInBhcmVudF9pZCI6IjY3MjkyMDc2IiwiYWNjb3VudCI6bnVsbCwiYWRtaW4iOnRydWV9fQ.XF-wFljs9uU9PQmzOTm6HEKey5na7vZiEtOtiy5lQ4s",
+        "user_session": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzMzNDg1NzIsImV4cCI6MTY3ODUzMjg3MiwidXNyIjp7IldHIjp7IlBBSVMiOiJtZXhpY28iLCJDT1VOVFJZQ09ERV9JUCI6IjEyNy4wLjAuMSIsIlJFR0lPTiI6Im14IiwiTk9NQlJFX1JFR0lPTiI6Im1leGljbyIsIklESU9NQSI6ImVzIiwiSUQiOiIyNyIsImlwUmVtb3RlQWRkcmVzcyI6IjEyNy4wLjAuMSJ9LCJ1c3VhcmlvIjp7InN0b3JhZ2UiOnsiQUNUSVZPIjoiSCIsIklEX1VTVUFSSU8iOiI2NzI5MjA3NiIsIlVTRVJOQU1FIjoiZGV2dXNlcjFAZ21haWwuY29tIiwiRU1BSUwiOiJkZXZ1c2VyMUBnbWFpbC5jb20iLCJOT01CUkUiOiJBZG1pbmlzdHJhZG9yIiwiQVBFTExJRE8iOiJBcGVsbGlkbyIsIlBJTl9QQVJFTlRBTCI6bnVsbCwiQ0xBU0lGSUNBQ0lPTl9QQVJFTlRBTCI6IjMwIiwiVEVSTUlOT1NfQUNFUFRBRE9TIjoiUyIsIlRJUE9fVVNVQVJJTyI6IkNQRU5PVklQIiwiUVVJRVJFX0FEVUxUTyI6Ik4iLCJJRF9TS0lOIjoiMSIsIklEX1NQQyI6bnVsbCwiTk9NQlJFX1NLSU4iOm51bGwsIkVTVEFETyI6bnVsbCwiRVNUQURPX0FDVElWTyI6IjEiLCJFWFRfSURfVVNVX1BBUlRORVIiOiJkZXZ1c2VyMUBnbWFpbC5jb20iLCJFWFRfSURfU0VTX1BBUlRORVIiOm51bGwsIkVYVF9JRF9VU1VfQUNDT1VOVCI6bnVsbCwiRVhUX0lEX1VTVV9QUk9EVUNUIjpudWxsLCJVU0VSX1BST0RVQ1QiOm51bGwsIlVTRVJfUFJPRFVDVF9UWVBFIjpudWxsLCJNRURJT19QQUdPX1NVU0NfR0FURVdBWV9OQU1FIjpudWxsLCJQQUlTX1VTVUFSSU8iOiJQRSIsIlJFR0lPTl9VU1VBUklPIjoicGVydSIsIlNVQlJFR0lPTl9VU1VBUklPIjpudWxsLCJDSVVEQURfVVNVQVJJTyI6bnVsbCwiSURfTUVESU9fUEFHT19NT05FREEiOmZhbHNlLCJJRF9NRURJT19QQUdPIjpmYWxzZSwiTk9NQlJFX01FRElPX1BBR08iOmZhbHNlLCJNT05FREEiOmZhbHNlLCJNRURJT19QQUdPX0dBVEVXQVlfTkFNRSI6ZmFsc2UsIkZFQ0hBX05BQ0lNSUVOVE8iOm51bGwsIkZFQ0hBX0FMVEEiOiIyNy1KVU4tMjIiLCJMT0dJTl9GRUNIQSI6bnVsbCwiUkVEU09DSUFMTkVUV09SSyI6bnVsbCwiSURfVVNVQVJJT19TT0NJQUwiOm51bGwsIkVYVFJBX0RBVEEiOm51bGwsIlNPQ0lBTF9ORVRXT1JLUyI6W3siaWRfdXN1YXJpbyI6IjY3MjkyMDc2IiwiaWRfdXN1YXJpb19zb2NpYWwiOiI2MmI5NWVmYTk0NDk2YjU4YTUzZGRjOTQiLCJyZWRzb2NpYWwiOiJJTVVTSUNBIiwiZXh0cmFfZGF0YSI6bnVsbH1dLCJTRVNJT05fRkVDSEEiOjE2NzMzNDg4NzEsIkNPVU5URVJfVkFMSURfRU1BSUwiOjAsIlBBUkVOVF9JRCI6IjY3MjkyMDc2IiwiQURNSU4iOnRydWUsIkZBQ0VCT09LX0lEIjpudWxsLCJQUk9GSUxFX0dST1VQX0NSRUFURUQiOmZhbHNlLCJQQVNTV09SRF9SRUNPVkVSRUQiOmZhbHNlLCJMQVNUVE9VQ0giOnsiU0VFTiI6IjYzYmQ0NzA3ZTIwOWYiLCJGQVZPUklURUQiOiI2M2JkNDcwN2UzMDg2IiwiUFVSQ0hBU0VEIjoiNjNiZDQ3MDdlNDE4NCIsIlBST0ZJTEUiOiIxNjczMzQ4ODcxIiwiUkVNSU5ERVIiOiIxNjczMzQ4ODcxIn0sIkdBTUlGSUNBVElPTl9JRCI6IjYyYjk1ZWZhOTQ0OTZiNThhNTNkZGM5NCIsIklTX0tJRFMiOiJmYWxzZSIsIkFDQ09VTlQiOm51bGx9fX19.6nPySSfUOokDnQ6D3wKI2VwPELFdLDU_HRm3nzLjx6Y"
+      },
+      "status": "0",
+      "msg": "OK"
+    },
+    "error_response": {
+      "entry": {
+        "username": "devuser1@gmail.com",
+        "password": "Tata12347",
+        "HKS": "63a98f6572b16",
+        "api_version": "v5.93",
+        "format": "json",
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_manufacturer": "ZTE",
+        "device_category": "STB",
+        "device_id": "ZTEATV41200122422",
+        "region": "mexico"
+      },
+      "response": {
+        "valido": "N",
+        "error": "error_auth_login"
+      },
+      "status": "1",
+      "msg": "ERROR",
+      "errors": {
+        "type": "internal",
+        "error": [
+          "El usuario o contrase\u00f1a ingresado es incorrecto, favor de intentarlo nuevamente."
+        ],
+        "code": "user_login_invalido"
+      }
+    },
+    "api_response": null,
+    "similarity_result": null
+  },
+  {
+    "api_name": "user/logout",
+    "api_url": "https://mfwkstbzte-api.clarovideo.net/services/user/logout?HKS=63a98f6572b16&api_version=v5.93&format=json&authpn=tataelxsi&authpt=vofee7ohhecai&device_type=ptv&device_model=androidTV&device_manufacturer=ZTE&device_category=STB",
+    "method": "GET",
+    "headers": null,
+    "body": null,
+    "success_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_category": "stb",
+        "device_type": "ott",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "HKS": "63bd4d129f3a8",
+        "api_version": "v5.93",
+        "format": "json"
+      },
+      "response": true,
+      "status": "0",
+      "msg": "OK"
+    },
+    "error_response": {
+      "entry": {
+        "api_version": "v5.93",
+        "format": "json",
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_type": "ptv",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "device_category": "STB"
+      },
+      "response": null,
+      "status": "1",
+      "msg": "ERROR",
+      "errors": {
+        "error": ["Par\u00e1metros inv\u00e1lidos"],
+        "code": "error_params"
+      }
+    },
+    "api_response": null,
+    "similarity_result": null
+  },
+  {
+    "api_name": "user/isloggedin",
+    "api_url": "http://mfwk-claroperu-homolog.clarovideo.net/services/user/isloggedin?authpn=tataelxsi&authpt=vofee7ohhecai&HKS=63a98f6572b16&api_version=v5.93&device_category=STB&device_type=ptv&device_model=androidTV&device_manufacturer=ZTE&region=peru",
+    "method": "GET",
+    "headers": null,
+    "body": null,
+    "success_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_category": "stb",
+        "device_type": "ott",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "HKS": "63e9d390b9aa0",
+        "api_version": "v5.93",
+        "region": "peru",
+        "device_id": "ZTEATV41200122422",
+        "includpaywayprofile": "1"
+      },
+      "response": {
+        "is_user_logged_in": 1,
+        "user_id": "78417838",
+        "username": "krishna@gmail.com",
+        "parent_id": "78417838",
+        "admin": true,
+        "email": "krishna@gmail.com",
+        "firstname": "Administrador",
+        "lastname": "Apellido",
+        "is_kids": "false",
+        "country_code": "PE",
+        "region": "peru",
+        "subregion": null,
+        "city": null,
+        "session_servername": "10.232.4.46",
+        "session_stringvalue": "63e9d390b9aa0",
+        "session_parametername": "HKS",
+        "session_userhash": "Nzg0MTc4Mzh8MTY3NjI2OTU3Nnw1YjZiYzE2MWMyMDcwNGMwY2I5MzhmMmRkZjk0ZjliMTIyNmIwOTQyMTRlNDg4OWU5ZQ==",
+        "socialdata": null,
+        "hasSavedPayway": 0,
+        "hasUserSusc": 0,
+        "lasttouch": {
+          "favorited": "63e9d3904693b",
+          "profile": "1676268432",
+          "purchased": "63e9d3904693b",
+          "reminder": "1676268432",
+          "seen": "63e9d3904693b"
+        },
+        "gamification_id": "5a070aefa7b01c5eb64d9422",
+        "accepted_terms": 1,
+        "superhighlight": [
+          "no_susc",
+          "no_suscripto_nbatv",
+          "no_suscripto_rtveplay",
+          "no_suscripto_amco",
+          "no_suscripto_fox_sports",
+          "no_suscripto_hbo",
+          "no_suscripto_crackle",
+          "no_suscripto_noggin",
+          "no_suscripto_picardia_nacional",
+          "no_suscripto_fox",
+          "no_suscripto_indycar",
+          "no_suscripto_edye",
+          "no_suscripto_paramount",
+          "no_suscripto_cvperu",
+          "no_suscripto_win_sports_plus",
+          "no_suscripto_stingraykaraoke",
+          "no_suscripto_stingrayqello",
+          "no_suscripto_atresplayer",
+          "no_suscripto_cdf_hd",
+          "no_suscripto_starzplay"
+        ],
+        "subscriptions": [],
+        "paymentMethods": [],
+        "userDetectWS": null,
+        "counterValidEmail": 0,
+        "validEmail": true,
+        "socialNetworks": [
+          {
+            "id_usuario": "78417838",
+            "id_usuario_social": "5a070aefa7b01c5eb64d9422",
+            "redsocial": "IMUSICA",
+            "extra_data": null
+          }
+        ],
+        "password_recovered": false,
+        "user_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzYyNjkyNzUsImV4cCI6MTY4MTQ1MzU3NSwidXNyIjp7InVzZXJfaWQiOiI3ODQxNzgzOCIsInVzZXJfdHlwZSI6IkNQRU5PVklQIiwidXNlcm5hbWUiOiJrcmlzaG5hQGdtYWlsLmNvbSIsImVtYWlsIjoia3Jpc2huYUBnbWFpbC5jb20iLCJmaXJzdG5hbWUiOiJBZG1pbmlzdHJhZG9yIiwibGFzdG5hbWUiOiJBcGVsbGlkbyIsImNvdW50cnlfY29kZSI6IlBFIiwicmVnaW9uIjoicGVydSIsImFjY2VwdGVkX3Rlcm1zIjoxLCJnYW1pZmljYXRpb25faWQiOiI1YTA3MGFlZmE3YjAxYzVlYjY0ZDk0MjIiLCJwYXJlbnRfaWQiOiI3ODQxNzgzOCIsImFjY291bnQiOm51bGwsImFkbWluIjp0cnVlfX0.eO3H4CChCcfzZtNNP48A_v1l3O6Z8LwyJrYD_SqQwSU",
+        "user_session": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzYyNjkyNzYsImV4cCI6MTY4MTQ1MzU3NiwidXNyIjp7IldHIjp7IlBBSVMiOiJQRSIsIkNPVU5UUllDT0RFX0lQIjoiUEUiLCJSRUdJT04iOiI3NDkiLCJOT01CUkVfUkVHSU9OIjoicGVydSIsIklESU9NQSI6IkVTUCIsIklEIjoiMjciLCJpcFJlbW90ZUFkZHJlc3MiOiIzLjIyNy4xODkuMTY1In0sInVzdWFyaW8iOnsic3RvcmFnZSI6eyJBQ1RJVk8iOiJIIiwiSURfVVNVQVJJTyI6Ijc4NDE3ODM4IiwiVVNFUk5BTUUiOiJrcmlzaG5hQGdtYWlsLmNvbSIsIkVNQUlMIjoia3Jpc2huYUBnbWFpbC5jb20iLCJOT01CUkUiOiJBZG1pbmlzdHJhZG9yIiwiQVBFTExJRE8iOiJBcGVsbGlkbyIsIlBJTl9QQVJFTlRBTCI6bnVsbCwiQ0xBU0lGSUNBQ0lPTl9QQVJFTlRBTCI6bnVsbCwiVEVSTUlOT1NfQUNFUFRBRE9TIjoiUyIsIlRJUE9fVVNVQVJJTyI6IkNQRU5PVklQIiwiUVVJRVJFX0FEVUxUTyI6Ik4iLCJJRF9TS0lOIjoiMSIsIklEX1NQQyI6bnVsbCwiTk9NQlJFX1NLSU4iOm51bGwsIkVTVEFETyI6bnVsbCwiRVNUQURPX0FDVElWTyI6IjEiLCJFWFRfSURfVVNVX1BBUlRORVIiOiJrcmlzaG5hQGdtYWlsLmNvbSIsIkVYVF9JRF9TRVNfUEFSVE5FUiI6bnVsbCwiRVhUX0lEX1VTVV9BQ0NPVU5UIjpudWxsLCJFWFRfSURfVVNVX1BST0RVQ1QiOm51bGwsIlVTRVJfUFJPRFVDVCI6bnVsbCwiVVNFUl9QUk9EVUNUX1RZUEUiOm51bGwsIk1FRElPX1BBR09fU1VTQ19HQVRFV0FZX05BTUUiOm51bGwsIlBBSVNfVVNVQVJJTyI6IlBFIiwiUkVHSU9OX1VTVUFSSU8iOiJwZXJ1IiwiU1VCUkVHSU9OX1VTVUFSSU8iOm51bGwsIkNJVURBRF9VU1VBUklPIjpudWxsLCJJRF9NRURJT19QQUdPX01PTkVEQSI6ZmFsc2UsIklEX01FRElPX1BBR08iOmZhbHNlLCJOT01CUkVfTUVESU9fUEFHTyI6ZmFsc2UsIk1PTkVEQSI6ZmFsc2UsIk1FRElPX1BBR09fR0FURVdBWV9OQU1FIjpmYWxzZSwiRkVDSEFfTkFDSU1JRU5UTyI6bnVsbCwiRkVDSEFfQUxUQSI6IjEzLUZFQi0yMyIsIkxPR0lOX0ZFQ0hBIjpudWxsLCJSRURTT0NJQUxORVRXT1JLIjpudWxsLCJJRF9VU1VBUklPX1NPQ0lBTCI6bnVsbCwiRVhUUkFfREFUQSI6bnVsbCwiU09DSUFMX05FVFdPUktTIjpbeyJpZF91c3VhcmlvIjoiNzg0MTc4MzgiLCJpZF91c3VhcmlvX3NvY2lhbCI6IjVhMDcwYWVmYTdiMDFjNWViNjRkOTQyMiIsInJlZHNvY2lhbCI6IklNVVNJQ0EiLCJleHRyYV9kYXRhIjpudWxsfV0sIlNFU0lPTl9GRUNIQSI6MTY3NjI2ODQzMiwiQ09VTlRFUl9WQUxJRF9FTUFJTCI6MCwiUEFSRU5UX0lEIjoiNzg0MTc4MzgiLCJBRE1JTiI6dHJ1ZSwiRkFDRUJPT0tfSUQiOm51bGwsIlBST0ZJTEVfR1JPVVBfQ1JFQVRFRCI6ZmFsc2UsIlBBU1NXT1JEX1JFQ09WRVJFRCI6ZmFsc2UsIkdBTUlGSUNBVElPTl9JRCI6IjVhMDcwYWVmYTdiMDFjNWViNjRkOTQyMiIsIklTX0tJRFMiOiJmYWxzZSIsIkFDQ09VTlQiOm51bGx9fX19.eAjG4bgCuvLpgP_TSuwMwGWbcyIyT8FfbZyXJCCq-y4",
+        "paywayProfile": {
+          "subscriptions": [],
+          "paymentMethods": [],
+          "isSuspended": false
+        }
+      },
+      "status": "0",
+      "msg": "OK"
+    },
+    "error_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "api_version": "v5.93",
+        "device_category": "STB",
+        "device_type": "ptv",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "region": "peru"
+      },
+      "response": {
+        "is_user_logged_in": 0,
+        "superhighlight": ["anonymous"]
+      },
+      "status": "1",
+      "msg": "ERROR",
+      "errors": {
+        "type": "internal",
+        "error": ["error_params"],
+        "code": "error_params"
+      }
+    },
+    "api_response": null,
+    "similarity_result": null
+  },
+  {
+    "api_name": "user/login(userhash)",
+    "api_url": "https://mfwkstbzte-api.clarovideo.net/services/user/login?authpn=tataelxsi&authpt=vofee7ohhecai&device_category=stb&device_manufacturer=ZTE&HKS=63ee5891d983a&api_version=v5.93&region=peru&device_id=ZTEATV41200122422&format=json&username=&password=&userhash=Nzc1NjY5Njd8MTY3NjYwOTU1N3wyNzM3ZWQ5YTkxZDg2ZDE1NTYzYmE4ZjM1MmJiMWQ0Yjk4ODkyNTQxNDVjYTU4ZjFlMg%3D%3D&includpaywayprofile=1",
+    "method": "GET",
+    "headers": null,
+    "body": null,
+    "success_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_category": "stb",
+        "device_manufacturer": "ZTE",
+        "HKS": "63ee5891d983a",
+        "api_version": "v5.93",
+        "region": "peru",
+        "device_id": "ZTEATV41200122422",
+        "format": "json",
+        "username": "",
+        "password": "",
+        "userhash": "Nzc1NjY5Njd8MTY3NjYwOTU1N3wyNzM3ZWQ5YTkxZDg2ZDE1NTYzYmE4ZjM1MmJiMWQ0Yjk4ODkyNTQxNDVjYTU4ZjFlMg==",
+        "includpaywayprofile": "1",
+        "cache": "all"
+      },
+      "response": {
+        "user_id": "77566967",
+        "parent_id": "76490074",
+        "admin": false,
+        "username": "7649007463d0f6eadc531",
+        "email": "veereshkumar.b.hubcorpmock@tataelxsi.co.in",
+        "firstname": "kid",
+        "lastname": "kid",
+        "is_kids": "true",
+        "country_code": "PE",
+        "region": "peru",
+        "subregion": null,
+        "city": null,
+        "session_servername": "10.232.12.160",
+        "session_stringvalue": "ZTEATV4120012242263ef091494f99",
+        "session_parametername": "HKS",
+        "session_userhash": "Nzc1NjY5Njd8MTY3NjYwOTgxMHw1ZTgwNTQwMmFkYjgxZTk1YmMyZGE4ZDU4OTY2NGIzNTdiMmU2YmM2Njk3OTY1YTJhZA==",
+        "language": "ES",
+        "status": "success",
+        "newWorkflow": 1,
+        "lasttouch": {
+          "seen": "63ef091281513",
+          "favorited": "63ef091281513",
+          "purchased": "63ef091281513",
+          "profile": 1676609810,
+          "reminder": 1676609810
+        },
+        "accepted_terms": 1,
+        "superhighlight": [
+          "no_suscripto_nbatv",
+          "suscripto_rtveplay",
+          "susc",
+          "no_suscripto_fox_sports",
+          "suscripto_hbo",
+          "no_suscripto_crackle",
+          "no_suscripto_noggin",
+          "suscripto_picardia_nacional",
+          "no_suscripto_fox",
+          "no_suscripto_indycar",
+          "suscripto_edye",
+          "no_suscripto_paramount",
+          "suscripto_cvperu",
+          "no_suscripto_win_sports_plus",
+          "suscripto_stingraykaraoke",
+          "suscripto_stingrayqello",
+          "suscripto_atresplayer",
+          "no_suscripto_cdf_hd",
+          "no_suscripto_starzplay",
+          "suscripto_lionsgate"
+        ],
+        "subscriptions": {
+          "EDYE": true,
+          "ATRESplayer": true,
+          "HBO": true,
+          "PICARDIA_NACIONAL": true,
+          "TV_EN_VIVO": true,
+          "STINGRAY_QELLO": true,
+          "STINGRAY_KARAOKE": true,
+          "RTVEPLAY": true,
+          "LIONSGATE": true,
+          "AMCO": true
+        },
+        "hasSavedPayway": 1,
+        "hasUserSusc": 1,
+        "socialNetworks": [
+          {
+            "id_usuario": "77566967",
+            "id_usuario_social": "63d0f6ebe371e44e4b7eee93",
+            "redsocial": "IMUSICA",
+            "extra_data": null
+          }
+        ],
+        "gamification_id": "63d0f6ebe371e44e4b7eee93",
+        "paywayProfile": {
+          "subscriptions": [
+            {
+              "name": "EDYE",
+              "key": "Telmexmexico_abono_EDYE",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "edye"
+            },
+            {
+              "name": "ATRESplayer",
+              "key": "Telmexmexico_abono_ATRESplayer",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "atresplayer"
+            },
+            {
+              "name": "HBO",
+              "key": "Telmexmexico_abono_HBO",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "hbo"
+            },
+            {
+              "name": "PICARDIA_NACIONAL",
+              "key": "Telmexmexico_abono_PICARDIA_NACIONAL",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "picardia"
+            },
+            {
+              "name": "TV_EN_VIVO",
+              "key": "Telmexmexico_abono_TV_EN_VIVO",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "STINGRAYQELLO",
+              "key": "Telmexmexico_abono_Stingray_Qello",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "stingrayqello"
+            },
+            {
+              "name": "STINGRAYKARAOKE",
+              "key": "Telmexmexico_abono_Stingray_Karaoke",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "stingraykaraoke"
+            },
+            {
+              "name": "RTVEPLAY",
+              "key": "Telmexmexico_abono_RTVEplay",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "rtve"
+            },
+            {
+              "name": "PLAY_TV",
+              "key": "PQT_PE_TV_ADULTO",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PLAY_TV",
+              "key": "PQT_PE_TV_BASICO",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PLAY_TV",
+              "key": "PQT_PE_TV_EXTENDIDO",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PLAY_TV",
+              "key": "PQT_PE_TV_FSN",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PLAY_TV",
+              "key": "PQT_PE_TV_GOLDEN_PREMIER",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PLAY_TV",
+              "key": "PQT_PE_TV_HBO",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PLAY_TV",
+              "key": "PQT_PE_TV_NHK",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PLAY_TV",
+              "key": "PQT_PE_TV_PRUEBA_TS_24",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PLAY_TV",
+              "key": "PQT_PE_TV_TS_24_NPVR_100",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PLAY_TV",
+              "key": "PQT_PE_TV_EXTENDIDO_FAKE",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PQT_NPVR_100",
+              "key": "PQT_PE_NPVR_100",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "CV_MENSUAL",
+              "key": "Telmexmexico_Subscription_SVOD_30d",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "amco"
+            },
+            {
+              "name": "MGM",
+              "key": "Telmexmexico_abono_MGM",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "MGM"
+            },
+            {
+              "name": "LIONSGATE",
+              "key": "Telmexmexico_abono_Lionsgate",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "STARZPLAY"
+            },
+            {
+              "name": "UNIVERSAL",
+              "key": "Telmexmexico_abono_Universal_Plus",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "UNIVERSAL_PLUS"
+            }
+          ],
+          "paymentMethods": [
+            {
+              "gateway": "hubfacturafijagate",
+              "gateway_text": "TEXT_PGS_PAYMENT_PERU_GATEWAY_HUBFACTURAFIJAGATE",
+              "status": "VALID",
+              "user_category_text": "TEXT_PGS_PROMOHC",
+              "account": "1113213769974",
+              "user_category": "PROMOHC"
+            }
+          ],
+          "isSuspended": false
+        },
+        "counterValidEmail": 0,
+        "validEmail": true,
+        "password_recovered": false,
+        "user_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzY2MDk1MTIsImV4cCI6MTY4MTc5MzgxMiwidXNyIjp7InVzZXJfaWQiOiI3NzU2Njk2NyIsInVzZXJfdHlwZSI6IkNQRU5PVklQIiwidXNlcm5hbWUiOiI3NjQ5MDA3NDYzZDBmNmVhZGM1MzEiLCJlbWFpbCI6InZlZXJlc2hrdW1hci5iLmh1YmNvcnBtb2NrQHRhdGFlbHhzaS5jby5pbiIsImZpcnN0bmFtZSI6ImtpZCIsImxhc3RuYW1lIjoia2lkIiwiY291bnRyeV9jb2RlIjoiUEUiLCJyZWdpb24iOiJwZXJ1IiwiYWNjZXB0ZWRfdGVybXMiOjEsImdhbWlmaWNhdGlvbl9pZCI6IjYzZDBmNmViZTM3MWU0NGU0YjdlZWU5MyIsInBhcmVudF9pZCI6Ijc2NDkwMDc0IiwiYWNjb3VudCI6IjExMTMyMTM3Njk5NzQiLCJhZG1pbiI6ZmFsc2V9fQ.-XQD6dU-ZfmtQnMuaoiM0aGNJxaneVf5qsSCXBW8R-4",
+        "user_session": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzY2MDk1MTIsImV4cCI6MTY4MTc5MzgxMiwidXNyIjp7IldHIjp7IlBBSVMiOiJQRSIsIkNPVU5UUllDT0RFX0lQIjoiUEUiLCJSRUdJT04iOiI3NDkiLCJOT01CUkVfUkVHSU9OIjoicGVydSIsIklESU9NQSI6IkVTUCIsIklEIjoiMjciLCJpcFJlbW90ZUFkZHJlc3MiOiIzLjIyNy4xODkuMTY1In0sInVzdWFyaW8iOnsic3RvcmFnZSI6eyJBQ1RJVk8iOiJIIiwiSURfVVNVQVJJTyI6Ijc3NTY2OTY3IiwiVVNFUk5BTUUiOiI3NjQ5MDA3NDYzZDBmNmVhZGM1MzEiLCJFTUFJTCI6InZlZXJlc2hrdW1hci5iLmh1YmNvcnBtb2NrQHRhdGFlbHhzaS5jby5pbiIsIk5PTUJSRSI6ImtpZCIsIkFQRUxMSURPIjoia2lkIiwiUElOX1BBUkVOVEFMIjpudWxsLCJDTEFTSUZJQ0FDSU9OX1BBUkVOVEFMIjpudWxsLCJURVJNSU5PU19BQ0VQVEFET1MiOiJTIiwiVElQT19VU1VBUklPIjoiQ1BFTk9WSVAiLCJRVUlFUkVfQURVTFRPIjpudWxsLCJJRF9TS0lOIjoiMCIsIklEX1NQQyI6bnVsbCwiTk9NQlJFX1NLSU4iOm51bGwsIkVTVEFETyI6bnVsbCwiRVNUQURPX0FDVElWTyI6IjEiLCJFWFRfSURfVVNVX1BBUlRORVIiOiI3NjQ5MDA3NCIsIkVYVF9JRF9TRVNfUEFSVE5FUiI6bnVsbCwiRVhUX0lEX1VTVV9BQ0NPVU5UIjpudWxsLCJFWFRfSURfVVNVX1BST0RVQ1QiOm51bGwsIlVTRVJfUFJPRFVDVCI6IjM0MDAiLCJVU0VSX1BST0RVQ1RfVFlQRSI6bnVsbCwiTUVESU9fUEFHT19TVVNDX0dBVEVXQVlfTkFNRSI6Imh1YmZhY3R1cmFmaWphZ2F0ZSIsIlBBSVNfVVNVQVJJTyI6IlBFIiwiUkVHSU9OX1VTVUFSSU8iOiJwZXJ1IiwiU1VCUkVHSU9OX1VTVUFSSU8iOm51bGwsIkNJVURBRF9VU1VBUklPIjpudWxsLCJJRF9NRURJT19QQUdPX01PTkVEQSI6IjExNCIsIklEX01FRElPX1BBR08iOiI0OCIsIk5PTUJSRV9NRURJT19QQUdPIjoiSHViIEZhY3R1cmEgRmlqYSIsIk1PTkVEQSI6IlBFIiwiTUVESU9fUEFHT19HQVRFV0FZX05BTUUiOiJodWJmYWN0dXJhZmlqYWdhdGUiLCJGRUNIQV9OQUNJTUlFTlRPIjpudWxsLCJGRUNIQV9BTFRBIjoiMjUtSkFOLTIzIiwiTE9HSU5fRkVDSEEiOm51bGwsIlJFRFNPQ0lBTE5FVFdPUksiOm51bGwsIklEX1VTVUFSSU9fU09DSUFMIjpudWxsLCJFWFRSQV9EQVRBIjpudWxsLCJTT0NJQUxfTkVUV09SS1MiOlt7ImlkX3VzdWFyaW8iOiI3NzU2Njk2NyIsImlkX3VzdWFyaW9fc29jaWFsIjoiNjNkMGY2ZWJlMzcxZTQ0ZTRiN2VlZTkzIiwicmVkc29jaWFsIjoiSU1VU0lDQSIsImV4dHJhX2RhdGEiOm51bGx9XSwiU0VTSU9OX0ZFQ0hBIjoxNjc2NjA5ODEwLCJDT1VOVEVSX1ZBTElEX0VNQUlMIjowLCJQQVJFTlRfSUQiOiI3NjQ5MDA3NCIsIkFETUlOIjpmYWxzZSwiRkFDRUJPT0tfSUQiOm51bGwsIlBST0ZJTEVfR1JPVVBfQ1JFQVRFRCI6ZmFsc2UsIlBBU1NXT1JEX1JFQ09WRVJFRCI6ZmFsc2UsIkdBTUlGSUNBVElPTl9JRCI6IjYzZDBmNmViZTM3MWU0NGU0YjdlZWU5MyIsIklTX0tJRFMiOiJ0cnVlIiwiQUNDT1VOVCI6bnVsbH19fX0.DNnTPLc1fTn69nnnMy0FEmG304scxWdUV57YVABy4hE"
+      },
+      "status": "0",
+      "msg": "OK"
+    },
+    "error_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_category": "STB",
+        "device_manufacturer": "ZTE",
+        "HKS": "63a98f6572b16",
+        "api_version": "v5.93",
+        "region": "peru",
+        "device_id": "ZTEATV41200122422",
+        "format": "json",
+        "username": "",
+        "password": "",
+        "userhash": "NzQ0MDIyMDJ8MTY3MjA1NjY3N3xiNDhkMjRiYTdiMGZjYWJjMmRjOTNhZjMzNjdlMDdjYjIxM2FhNmZlYzFkMzk2NDcyZg=="
+      },
+      "response": {
+        "valido": "N",
+        "error": "error_auth_login"
+      },
+      "status": "1",
+      "msg": "ERROR",
+      "errors": {
+        "type": "internal",
+        "error": ["error_params: invalid user hash "],
+        "code": "USR_USR_00012"
+      }
+    },
+    "api_response": null,
+    "similarity_result": null
+  },
+  {
+    "api_name": "user/authdevice",
+    "api_url": "https://mfwkstbzte-api.clarovideo.net/services/user/authdevice?authpn=tataelxsi&authpt=vofee7ohhecai&device_category=stb&device_type=ott&device_model=androidTV&device_manufacturer=ZTE&HKS=3m5e32tdiro9agb386e062obn7&api_version=v5.93&region=peru&device_so=Android%2012&serial_id=ZTEATV41200122422&format=json&device_name=B866V2_AMX_ATV_PE&includpaywayprofile=1",
+    "method": "GET",
+    "headers": null,
+    "body": null,
+    "success_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_category": "stb",
+        "device_type": "ott",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "HKS": "sjahbdeto2r4rj9g4lhtm962f0",
+        "api_version": "v5.93",
+        "region": "guatemala",
+        "device_so": "Android 12",
+        "serial_id": "ZTEATV41200799990",
+        "format": "json",
+        "device_name": "B866V2_AMX_ATV_PE",
+        "includpaywayprofile": "1",
+        "cache": "all"
+      },
+      "response": {
+        "user_id": "70202404",
+        "parent_id": "70202404",
+        "admin": true,
+        "username": "iosappleidsony+hubcorpmock@gmail.com",
+        "email": "iosappleidsony+hubcorpmock@gmail.com",
+        "firstname": "testing testing",
+        "lastname": "testing",
+        "is_kids": "false",
+        "country_code": "GT",
+        "region": "guatemala",
+        "subregion": null,
+        "city": null,
+        "session_servername": "10.20.26.100",
+        "session_stringvalue": "63bd2e751e768",
+        "session_parametername": "HKS",
+        "session_userhash": "NzAyMDI0MDR8MTY3MzM0MjU3OXxmNDc2Y2NkYzhlYjdkZDkyNzFhNjNiYTlhNTNmOWJjNWU2NWZlZmU0MjVhMDIxOGY1MQ==",
+        "language": "ES",
+        "status": "success",
+        "newWorkflow": 1,
+        "lasttouch": {
+          "favorited": "63bd127a4516e",
+          "profile": "1673335418",
+          "purchased": "63bd127a4516e",
+          "reminder": "1673335418",
+          "seen": "63bd127a4516e"
+        },
+        "accepted_terms": 1,
+        "superhighlight": [
+          "no_suscripto_nbatv",
+          "suscripto_rtveplay",
+          "susc",
+          "no_suscripto_fox_sports",
+          "suscripto_hbo",
+          "no_suscripto_crackle",
+          "no_suscripto_noggin",
+          "suscripto_picardia_nacional",
+          "suscripto_fox",
+          "no_suscripto_indycar",
+          "suscripto_edye",
+          "no_suscripto_paramount",
+          "suscripto_cvperu",
+          "no_suscripto_win_sports_plus",
+          "no_suscripto_stingraykaraoke",
+          "suscripto_stingrayqello",
+          "suscripto_atresplayer",
+          "no_suscripto_cdf_hd",
+          "no_suscripto_starzplay"
+        ],
+        "subscriptions": {
+          "STINGRAY_QELLO": true,
+          "RTVEPLAY": true,
+          "HBO": true,
+          "TV_EN_VIVO": true,
+          "FOX": true,
+          "EDYE": true,
+          "ATRESplayer": true,
+          "PICARDIA_NACIONAL": true,
+          "AMCO": true
+        },
+        "paymentMethods": {
+          "hubfacturafijagate": true
+        },
+        "hasSavedPayway": 1,
+        "hasUserSusc": 1,
+        "socialNetworks": [
+          {
+            "id_usuario": "70202404",
+            "id_usuario_social": "62f56431de7e87778138a2ce",
+            "redsocial": "IMUSICA",
+            "extra_data": null
+          }
+        ],
+        "gamification_id": "62f56431de7e87778138a2ce",
+        "counterValidEmail": 0,
+        "validEmail": true,
+        "password_recovered": false,
+        "user_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzMzNDIyODAsImV4cCI6MTY3ODUyNjU4MCwidXNyIjp7InVzZXJfaWQiOiI3MDIwMjQwNCIsInVzZXJfdHlwZSI6IkNHVE5PVklQIiwidXNlcm5hbWUiOiJpb3NhcHBsZWlkc29ueStodWJjb3JwbW9ja0BnbWFpbC5jb20iLCJlbWFpbCI6Imlvc2FwcGxlaWRzb255K2h1YmNvcnBtb2NrQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6InRlc3RpbmcgdGVzdGluZyIsImxhc3RuYW1lIjoidGVzdGluZyIsImNvdW50cnlfY29kZSI6IkdUIiwicmVnaW9uIjoiZ3VhdGVtYWxhIiwiYWNjZXB0ZWRfdGVybXMiOjEsImdhbWlmaWNhdGlvbl9pZCI6IjYyZjU2NDMxZGU3ZTg3Nzc4MTM4YTJjZSIsInBhcmVudF9pZCI6IjcwMjAyNDA0IiwiYWNjb3VudCI6IlBBQ0tBR0VfNzAyMDI0MDQiLCJhZG1pbiI6dHJ1ZX19.6mtIa5FEQ44ZD3Ydp9BeRbTtHTsRaS_OuUbWdQcJWus",
+        "user_session": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzMzNDIyODEsImV4cCI6MTY3ODUyNjU4MSwidXNyIjp7IldHIjp7IlBBSVMiOiJHVCIsIkNPVU5UUllDT0RFX0lQIjoiR1QiLCJSRUdJT04iOiI3NTIiLCJOT01CUkVfUkVHSU9OIjoiZ3VhdGVtYWxhIiwiSURJT01BIjoiRVNQIiwiSUQiOiIyNyIsImlwUmVtb3RlQWRkcmVzcyI6IjM0LjIzNC4xMzEuMjIxIn0sInVzdWFyaW8iOnsic3RvcmFnZSI6eyJBQ1RJVk8iOiJIIiwiSURfVVNVQVJJTyI6IjcwMjAyNDA0IiwiVVNFUk5BTUUiOiJpb3NhcHBsZWlkc29ueStodWJjb3JwbW9ja0BnbWFpbC5jb20iLCJFTUFJTCI6Imlvc2FwcGxlaWRzb255K2h1YmNvcnBtb2NrQGdtYWlsLmNvbSIsIk5PTUJSRSI6InRlc3RpbmcgdGVzdGluZyIsIkFQRUxMSURPIjoidGVzdGluZyIsIlBJTl9QQVJFTlRBTCI6bnVsbCwiQ0xBU0lGSUNBQ0lPTl9QQVJFTlRBTCI6IjMwIiwiVEVSTUlOT1NfQUNFUFRBRE9TIjoiUyIsIlRJUE9fVVNVQVJJTyI6IkNHVE5PVklQIiwiUVVJRVJFX0FEVUxUTyI6Ik4iLCJJRF9TS0lOIjoiMSIsIklEX1NQQyI6bnVsbCwiTk9NQlJFX1NLSU4iOm51bGwsIkVTVEFETyI6bnVsbCwiRVNUQURPX0FDVElWTyI6IjEiLCJFWFRfSURfVVNVX1BBUlRORVIiOiJpb3NhcHBsZWlkc29ueStodWJjb3JwbW9ja0BnbWFpbC5jb20iLCJFWFRfSURfU0VTX1BBUlRORVIiOm51bGwsIkVYVF9JRF9VU1VfQUNDT1VOVCI6bnVsbCwiRVhUX0lEX1VTVV9QUk9EVUNUIjpudWxsLCJVU0VSX1BST0RVQ1QiOiIzODgwIiwiVVNFUl9QUk9EVUNUX1RZUEUiOm51bGwsIk1FRElPX1BBR09fU1VTQ19HQVRFV0FZX05BTUUiOiJodWJmYWN0dXJhZmlqYWdhdGUiLCJQQUlTX1VTVUFSSU8iOiJHVCIsIlJFR0lPTl9VU1VBUklPIjoiZ3VhdGVtYWxhIiwiU1VCUkVHSU9OX1VTVUFSSU8iOm51bGwsIkNJVURBRF9VU1VBUklPIjpudWxsLCJJRF9NRURJT19QQUdPX01PTkVEQSI6IjEwMSIsIklEX01FRElPX1BBR08iOiI0OCIsIk5PTUJSRV9NRURJT19QQUdPIjoiSHViIEZhY3R1cmEgRmlqYSIsIk1PTkVEQSI6IkdUIiwiTUVESU9fUEFHT19HQVRFV0FZX05BTUUiOiJodWJmYWN0dXJhZmlqYWdhdGUiLCJGRUNIQV9OQUNJTUlFTlRPIjpudWxsLCJGRUNIQV9BTFRBIjoiMTEtQVVHLTIyIiwiTE9HSU5fRkVDSEEiOm51bGwsIlJFRFNPQ0lBTE5FVFdPUksiOm51bGwsIklEX1VTVUFSSU9fU09DSUFMIjpudWxsLCJFWFRSQV9EQVRBIjpudWxsLCJTT0NJQUxfTkVUV09SS1MiOlt7ImlkX3VzdWFyaW8iOiI3MDIwMjQwNCIsImlkX3VzdWFyaW9fc29jaWFsIjoiNjJmNTY0MzFkZTdlODc3NzgxMzhhMmNlIiwicmVkc29jaWFsIjoiSU1VU0lDQSIsImV4dHJhX2RhdGEiOm51bGx9XSwiU0VTSU9OX0ZFQ0hBIjoxNjczMzQyNTc5LCJDT1VOVEVSX1ZBTElEX0VNQUlMIjowLCJQQVJFTlRfSUQiOiI3MDIwMjQwNCIsIkFETUlOIjp0cnVlLCJGQUNFQk9PS19JRCI6bnVsbCwiUFJPRklMRV9HUk9VUF9DUkVBVEVEIjpmYWxzZSwiUEFTU1dPUkRfUkVDT1ZFUkVEIjpmYWxzZSwiR0FNSUZJQ0FUSU9OX0lEIjoiNjJmNTY0MzFkZTdlODc3NzgxMzhhMmNlIiwiSVNfS0lEUyI6ImZhbHNlIiwiQUNDT1VOVCI6IlBBQ0tBR0VfNzAyMDI0MDQifX19fQ.IiNoTF7fJZ3unKkSQbz1Rz1ERb8Oy9E7Ik465lsH_qk",
+        "paywayProfile": {
+          "subscriptions": [
+            {
+              "name": "STINGRAYQELLO",
+              "key": "Telmexmexico_abono_Stingray_Qello",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "stingrayqello"
+            },
+            {
+              "name": "RTVEPLAY",
+              "key": "Telmexmexico_abono_RTVEplay",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "rtve"
+            },
+            {
+              "name": "CV_MENSUAL",
+              "key": "Telmexmexico_Subscription_SVOD_30d",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "amco"
+            },
+            {
+              "name": "LIONSGATE",
+              "key": "Telmexmexico_abono_Lionsgate",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "STARZPLAY"
+            },
+            {
+              "name": "PLAY_TV",
+              "key": "PQT_GT_TV_PREMIUM_HBO_MAX",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PLAY_TV",
+              "key": "PQT_GT_TV_EN_VIVO_PRUEBA_TS_12_NPVR_50",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PQT_ADULTOS",
+              "key": "PQT_GT_TV_ADULTOS_NS",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PLAY_TV",
+              "key": "PQT_GT_TV_DIGITAL_FOX_PREMIUM",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PQT_GOLDEN",
+              "key": "PQT_GT_TV_GOLDEN_PREMIER_NS",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "PLAY_TV",
+              "key": "PQT_GT_TV_PRUEBA_TS_24_NPVR_100",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "AVANZADO_HD_PLUS",
+              "key": "PQT_GT_Paquete_Avanzado_HD_Plus_NS",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": null
+            },
+            {
+              "name": "MGM",
+              "key": "Telmexmexico_abono_MGM",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "MGM"
+            },
+            {
+              "name": "HBO",
+              "key": "Telmexmexico_abono_HBO",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "hbo"
+            },
+            {
+              "name": "EDYE",
+              "key": "Telmexmexico_abono_EDYE",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "edye"
+            },
+            {
+              "name": "ATRESplayer",
+              "key": "Telmexmexico_abono_ATRESplayer",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "atresplayer"
+            },
+            {
+              "name": "PICARDIA_NACIONAL",
+              "key": "Picardia_Nacional_7d",
+              "paymentmethod": {
+                "gateway": "hubfacturafijagate",
+                "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE"
+              },
+              "provider": "picardia"
+            }
+          ],
+          "paymentMethods": [
+            {
+              "gateway": "hubfacturafijagate",
+              "gateway_text": "TEXT_PGS_PAYMENT_GUATEMALA_GATEWAY_HUBFACTURAFIJAGATE",
+              "status": "VALID",
+              "user_category_text": null,
+              "account": "PACKAGE_70202404",
+              "user_category": null
+            }
+          ],
+          "isSuspended": false
+        }
+      },
+      "status": "0",
+      "msg": "OK"
+    },
+    "error_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_category": "stb",
+        "device_type": "ott",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "HKS": "hjb0g2jobhui1ragpc1me6jd35",
+        "api_version": "v5.93",
+        "region": "costarica",
+        "device_so": "Android 10",
+        "serial_id": "ZTEATV41200438564",
+        "format": "json",
+        "device_name": "B866V2_AMX_ATV_PE",
+        "includpaywayprofile": "1"
+      },
+      "response": [],
+      "status": "1",
+      "msg": "ERROR",
+      "errors": {
+        "type": "internal",
+        "error": ["error : Invalid serial id "],
+        "code": "USR_EXT_00004"
+      }
+    },
+    "api_response": null,
+    "similarity_result": null
+  },
+  {
+    "api_name": "user/getuserinfo-with userid",
+    "api_url": "https://mfwkstbzte-api.clarovideo.net/services/user/getuserinfo?authpn=tataelxsi&authpt=vofee7ohhecai&prueba=test2&user_id=76490074&device_category=STB&device_type=ptv&device_model=androidTV&device_manufacturer=ZTE  ",
+    "method": "GET",
+    "headers": null,
+    "body": null,
+    "success_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_category": "stb",
+        "device_type": "ott",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "user_id": "78417838"
+      },
+      "response": {
+        "id_usuario": "78417838",
+        "username": "krishna@gmail.com",
+        "email": "krishna@gmail.com",
+        "nombre": "Administrador",
+        "apellido": "Apellido",
+        "region_cc": "PE",
+        "region_nombre": "peru",
+        "terminos_aceptados": "13-FEB-23",
+        "tipo_usuario": "CPENOVIP",
+        "customer_id": "9962117",
+        "user_hash": "Nzg0MTc4Mzh8MTY3NjI2ODkwMXxhNjk3M2FhYzk5MTU0MzNlYzg2N2U2ZTlkZWU4ZWZjZjY5ZDI2NDEzNDhkODEwMmRiNg==",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzYyNjg2MDEsImV4cCI6MTY4MTQ1MjkwMSwidXNyIjp7InVzZXJfaWQiOiI3ODQxNzgzOCIsInVzZXJfdHlwZSI6IkNQRU5PVklQIiwidXNlcm5hbWUiOiJrcmlzaG5hQGdtYWlsLmNvbSIsImVtYWlsIjoia3Jpc2huYUBnbWFpbC5jb20iLCJmaXJzdG5hbWUiOiJBZG1pbmlzdHJhZG9yIiwibGFzdG5hbWUiOiJBcGVsbGlkbyIsImNvdW50cnlfY29kZSI6IlBFIiwicmVnaW9uIjoicGVydSIsImFjY2VwdGVkX3Rlcm1zIjoiMSIsImdhbWlmaWNhdGlvbl9pZCI6IjVhMDcwYWVmYTdiMDFjNWViNjRkOTQyMiIsInBhcmVudF9pZCI6Ijc4NDE3ODM4IiwiYWNjb3VudCI6bnVsbCwiYWRtaW4iOnRydWV9fQ.S5RJhfAaMIPG8qnomwv6V-vFrqfaIYtVra_RxYEZQZM"
+      },
+      "status": "0",
+      "msg": "OK"
+    },
+    "error_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "prueba": "test2",
+        "device_category": "STB",
+        "device_type": "ptv",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE"
+      },
+      "response": null,
+      "status": "1",
+      "msg": "ERROR",
+      "errors": {
+        "error": ["error_params:parameter user_hash or email missing"],
+        "code": "error_params"
+      }
+    },
+    "api_response": null,
+    "similarity_result": null
+  },
+  {
+    "api_name": "user/getuserinfo-with email",
+    "api_url": "http://mfwk-claroperu-homolog.clarovideo.net/services/user/getuserinfo?authpn=tataelxsi&authpt=vofee7ohhecai&prueba=test2&email=devuser1@gmail.com&device_category=STB&device_type=ptv&device_model=androidTV&device_manufacturer=ZTE",
+    "method": "GET",
+    "headers": null,
+    "body": null,
+    "success_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_category": "stb",
+        "device_type": "ott",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "email": "devuser1@gmail.com"
+      },
+      "response": {
+        "id_usuario": "76543918",
+        "username": "devuser1@gmail.com",
+        "email": "devuser1@gmail.com",
+        "nombre": "testing",
+        "apellido": "testing",
+        "region_cc": "PE",
+        "region_nombre": "peru",
+        "terminos_aceptados": "03-JAN-23",
+        "tipo_usuario": "CPENOVIP",
+        "customer_id": "9677817",
+        "user_hash": "NzY1NDM5MTh8MTY3MzM1MDEyNnxjYjBmMGIzMTk3MWZiYTM5YTA2M2VjMGU4NGZlMjAzMGMyYzlkOGE3Nzk0ZTk3MTI5ZA==",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzMzNDk4MjYsImV4cCI6MTY3ODUzNDEyNiwidXNyIjp7InVzZXJfaWQiOiI3NjU0MzkxOCIsInVzZXJfdHlwZSI6IkNQRU5PVklQIiwidXNlcm5hbWUiOiJkZXZ1c2VyMUBnbWFpbC5jb20iLCJlbWFpbCI6ImRldnVzZXIxQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6InRlc3RpbmciLCJsYXN0bmFtZSI6InRlc3RpbmciLCJjb3VudHJ5X2NvZGUiOiJQRSIsInJlZ2lvbiI6InBlcnUiLCJhY2NlcHRlZF90ZXJtcyI6IjEiLCJnYW1pZmljYXRpb25faWQiOiI2M2I0NTc4MWRlN2U4NzVjMTEzMjJiZjkiLCJwYXJlbnRfaWQiOiI3NjU0MzkxOCIsImFjY291bnQiOiJQQUNLQUdFXzc2NTQzOTE4IiwiYWRtaW4iOnRydWV9fQ._NgpG7P18PE_XnwVFdMz03Q3VDywPI09UFUUKoIfQz4"
+      },
+      "status": "0",
+      "msg": "OK"
+    },
+    "error_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "prueba": "test2",
+        "device_category": "STB",
+        "device_type": "ptv",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE"
+      },
+      "response": null,
+      "status": "1",
+      "msg": "ERROR",
+      "errors": {
+        "error": ["error_params:parameter user_hash or email missing"],
+        "code": "error_params"
+      }
+    },
+    "api_response": null,
+    "similarity_result": null
+  },
+  {
+    "api_name": "user/sendtemporalcode",
+    "api_url": "https://mfwkstbzte-api.clarovideo.net/services/user/sendtemporalcode?authpn=tataelxsi&authpt=vofee7ohhecai&api_version=v5.93&region=peru&email=devuser1@gmail.com&profile=1",
+    "method": "POST",
+    "headers": null,
+    "body": null,
+    "success_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "api_version": "v5.93",
+        "region": "peru",
+        "email": "devuser1@gmail.com"
+      },
+      "response": {
+        "email_sent": true,
+        "attempt": 1
+      },
+      "status": "0",
+      "msg": "OK"
+    },
+    "error_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "api_version": "v5.93",
+        "region": "peru",
+        "email": "devuser1@gmail.com"
+      },
+      "response": {
+        "email_sent": true,
+        "attempt": 3
+      },
+      "status": "0",
+      "msg": "OK"
+    },
+    "api_response": null,
+    "similarity_result": null
+  },
+  {
+    "api_name": "user/getuserinfo-with email",
+    "api_url": "http://mfwk-claroperu-homolog.clarovideo.net/services/user/getuserinfo?authpn=tataelxsi&authpt=vofee7ohhecai&prueba=test2&email=devuser1@gmail.com&device_category=STB&device_type=ptv&device_model=androidTV&device_manufacturer=ZTE",
+    "method": "GET",
+    "headers": null,
+    "body": null,
+    "success_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_category": "stb",
+        "device_type": "ott",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "email": "devuser1@gmail.com"
+      },
+      "response": {
+        "id_usuario": "76543918",
+        "username": "devuser1@gmail.com",
+        "email": "devuser1@gmail.com",
+        "nombre": "testing",
+        "apellido": "testing",
+        "region_cc": "PE",
+        "region_nombre": "peru",
+        "terminos_aceptados": "03-JAN-23",
+        "tipo_usuario": "CPENOVIP",
+        "customer_id": "9677817",
+        "user_hash": "NzY1NDM5MTh8MTY3MzM1MDEyNnxjYjBmMGIzMTk3MWZiYTM5YTA2M2VjMGU4NGZlMjAzMGMyYzlkOGE3Nzk0ZTk3MTI5ZA==",
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzMzNDk4MjYsImV4cCI6MTY3ODUzNDEyNiwidXNyIjp7InVzZXJfaWQiOiI3NjU0MzkxOCIsInVzZXJfdHlwZSI6IkNQRU5PVklQIiwidXNlcm5hbWUiOiJkZXZ1c2VyMUBnbWFpbC5jb20iLCJlbWFpbCI6ImRldnVzZXIxQGdtYWlsLmNvbSIsImZpcnN0bmFtZSI6InRlc3RpbmciLCJsYXN0bmFtZSI6InRlc3RpbmciLCJjb3VudHJ5X2NvZGUiOiJQRSIsInJlZ2lvbiI6InBlcnUiLCJhY2NlcHRlZF90ZXJtcyI6IjEiLCJnYW1pZmljYXRpb25faWQiOiI2M2I0NTc4MWRlN2U4NzVjMTEzMjJiZjkiLCJwYXJlbnRfaWQiOiI3NjU0MzkxOCIsImFjY291bnQiOiJQQUNLQUdFXzc2NTQzOTE4IiwiYWRtaW4iOnRydWV9fQ._NgpG7P18PE_XnwVFdMz03Q3VDywPI09UFUUKoIfQz4"
+      },
+      "status": "0",
+      "msg": "OK"
+    },
+    "error_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "prueba": "test2",
+        "device_category": "STB",
+        "device_type": "ptv",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE"
+      },
+      "response": null,
+      "status": "1",
+      "msg": "ERROR",
+      "errors": {
+        "error": ["error_params:parameter user_hash or email missing"],
+        "code": "error_params"
+      }
+    },
+    "api_response": null,
+    "similarity_result": null
+  },
+  {
+    "api_name": "user/sendtemporalcode",
+    "api_url": "https://mfwkstbzte-api.clarovideo.net/services/user/sendtemporalcode?authpn=tataelxsi&authpt=vofee7ohhecai&api_version=v5.93&region=peru&email=devuser1@gmail.com&profile=1",
+    "method": "POST",
+    "headers": null,
+    "body": null,
+    "success_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "api_version": "v5.93",
+        "region": "peru",
+        "email": "devuser1@gmail.com"
+      },
+      "response": {
+        "email_sent": true,
+        "attempt": 1
+      },
+      "status": "0",
+      "msg": "OK"
+    },
+    "error_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "api_version": "v5.93",
+        "region": "peru",
+        "email": "devuser1@gmail.com"
+      },
+      "response": {
+        "email_sent": true,
+        "attempt": 3
+      },
+      "status": "0",
+      "msg": "OK"
+    },
+    "api_response": null,
+    "similarity_result": null
+  },
+  {
+    "api_name": "user/password",
+    "api_url": "https://mfwkstbzte-api.clarovideo.net/services/user/password?authpn=tataelxsi&authpt=vofee7ohhecai&device_category=stb&device_type=ptv&device_model=androidTV&device_manufacturer=ZTE&HKS=63a18d6f63afc&api_version=v5.93&region=peru&device_id=ZTEATV41200799982&device_so=Android%2010&format=json&user_id=69798008&user_hash=Njk3OTgwMDh8MTY3MTUzMTg4N3w1ZTQ2ZDZkY2UxNWU0YzQ5NmQyZWNiNDM5NGZkNzc3NjZkYjNhZDhlYzJjZTk0Y2RkNQ%3D%3D&newpassword=Aa123456&controlpassword=Aa123456&oldpassword=qqqqq",
+    "method": "GET",
+    "headers": null,
+    "body": null,
+    "success_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_category": "stb",
+        "device_type": "ptv",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "HKS": "63a18d6f63afc",
+        "api_version": "v5.93",
+        "region": "peru",
+        "device_id": "ZTEATV41200799982",
+        "device_so": "Android 10",
+        "format": "json",
+        "user_id": "69798008",
+        "user_hash": "Njk3OTgwMDh8MTY3MTUzMTg4N3w1ZTQ2ZDZkY2UxNWU0YzQ5NmQyZWNiNDM5NGZkNzc3NjZkYjNhZDhlYzJjZTk0Y2RkNQ==",
+        "newpassword": "Aa123456",
+        "controlpassword": "Aa123456",
+        "oldpassword": "qqqqq"
+      },
+      "response": {
+        "status": "0",
+        "code": "update_successful",
+        "msg": "Actualizaci\u00f3n Exitosa"
+      }
+    },
+    "error_response": {
+      "entry": {
+        "authpn": "tataelxsi",
+        "authpt": "vofee7ohhecai",
+        "device_category": "stb",
+        "device_type": "ptv",
+        "device_model": "androidTV",
+        "device_manufacturer": "ZTE",
+        "HKS": "63a18d6f63afc",
+        "api_version": "v5.93",
+        "region": "peru",
+        "device_id": "ZTEATV41200799982",
+        "device_so": "Android 10",
+        "format": "json",
+        "user_id": "69798008",
+        "user_hash": "Njk3OTgwMDh8MTY3MTUzMTg4N3w1ZTQ2ZDZkY2UxNWU0YzQ5NmQyZWNiNDM5NGZkNzc3NjZkYjNhZDhlYzJjZTk0Y2RkNQ==",
+        "newpassword": "Aa123456",
+        "controlpassword": "Aa123456",
+        "oldpassword": "qqqqq"
+      },
+      "response": {
+        "status": "1",
+        "error": "Password anterior invalido",
+        "code": "error_params_old_password",
+        "msg": "ERROR"
+      }
+    },
+    "api_response": null,
+    "similarity_result": null
+  },
+  {
+    "api_name": "push/session",
+    "api_url": "https://mfwkstbzte-api.clarovideo.net/services/user/push_session?authpn=tataelxsi&authpt=vofee7ohhecai&device_category=stb&device_type=ptv&device_model=androidTV&device_manufacturer=ZTE&HKS=63a9767c9fe30&api_version=v5.93&region=peru&device_so=Android%2012&serial_id=ZTEATV41200122363&format=json&user_id=69798008&device_name=B866V2_AMX_ATV_PE&user_session=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzIwNTAwMDAsImV4cCI6MTY3NzIzNDMwMCwidXNyIjp7IldHIjp7IlBBSVMiOiJQRSIsIkNPVU5UUllDT0RFX0lQIjoiUEUiLCJSRUdJT04iOiI3NDkiLCJOT01CUkVfUkVHSU9OIjoicGVydSIsIklESU9NQSI6IkVTUCIsIklEIjoiMjciLCJpcFJlbW90ZUFkZHJlc3MiOiIzLjIyNi4yMTIuMTIifSwidXN1YXJpbyI6eyJzdG9yYWdlIjp7IkFDVElWTyI6IkgiLCJJRF9VU1VBUklPIjoiNjk3OTgwMDgiLCJVU0VSTkFNRSI6IjUxMTM4MzUycGVAY3YuY29tIiwiRU1BSUwiOiI1MTEzODM1MnBlQGN2LmNvbSIsIk5PTUJSRSI6IlZUUnFhYSBxdWVzdGlvbiIsIkFQRUxMSURPIjoiTk4gTk4iLCJQSU5fUEFSRU5UQUwiOm51bGwsIkNMQVNJRklDQUNJT05fUEFSRU5UQUwiOiIzMCIsIlRFUk1JTk9TX0FDRVBUQURPUyI6IlMiLCJUSVBPX1VTVUFSSU8iOiJDUEVOT1ZJUCIsIlFVSUVSRV9BRFVMVE8iOm51bGwsIklEX1NLSU4iOiIwIiwiSURfU1BDIjpudWxsLCJOT01CUkVfU0tJTiI6bnVsbCwiRVNUQURPIjpudWxsLCJFU1RBRE9fQUNUSVZPIjoiMSIsIkVYVF9JRF9VU1VfUEFSVE5FUiI6IjUxMTM4MzUycGVAY3YuY29tIiwiRVhUX0lEX1NFU19QQVJUTkVSIjpudWxsLCJFWFRfSURfVVNVX0FDQ09VTlQiOm51bGwsIkVYVF9JRF9VU1VfUFJPRFVDVCI6bnVsbCwiVVNFUl9QUk9EVUNUIjoiMjYwMCIsIlVTRVJfUFJPRFVDVF9UWVBFIjpudWxsLCJNRURJT19QQUdPX1NVU0NfR0FURVdBWV9OQU1FIjoiaHViZmFjdHVyYWZpamFnYXRlIiwiUEFJU19VU1VBUklPIjoiUEUiLCJSRUdJT05fVVNVQVJJTyI6InBlcnUiLCJTVUJSRUdJT05fVVNVQVJJTyI6bnVsbCwiQ0lVREFEX1VTVUFSSU8iOm51bGwsIklEX01FRElPX1BBR09fTU9ORURBIjoiMTE0IiwiSURfTUVESU9fUEFHTyI6IjQ4IiwiTk9NQlJFX01FRElPX1BBR08iOiJIdWIgRmFjdHVyYSBGaWphIiwiTU9ORURBIjoiUEUiLCJNRURJT19QQUdPX0dBVEVXQVlfTkFNRSI6Imh1YmZhY3R1cmFmaWphZ2F0ZSIsIkZFQ0hBX05BQ0lNSUVOVE8iOm51bGwsIkZFQ0hBX0FMVEEiOiIwNC1BVUctMjIiLCJMT0dJTl9GRUNIQSI6bnVsbCwiUkVEU09DSUFMTkVUV09SSyI6bnVsbCwiSURfVVNVQVJJT19TT0NJQUwiOm51bGwsIkVYVFJBX0RBVEEiOm51bGwsIlNPQ0lBTF9ORVRXT1JLUyI6W3siaWRfdXN1YXJpbyI6IjY5Nzk4MDA4IiwiaWRfdXN1YXJpb19zb2NpYWwiOiI2MmY1OGU4MWMzMDQxNTcyZWQ1NTRmZTUiLCJyZWRzb2NpYWwiOiJJTVVTSUNBIiwiZXh0cmFfZGF0YSI6bnVsbH1dLCJTRVNJT05fRkVDSEEiOjE2NzIwNTAzMDAsIkNPVU5URVJfVkFMSURfRU1BSUwiOjAsIlBBUkVOVF9JRCI6IjY5Nzk4MDA4IiwiQURNSU4iOnRydWUsIkZBQ0VCT09LX0lEIjpudWxsLCJQUk9GSUxFX0dST1VQX0NSRUFURUQiOmZhbHNlLCJQQVNTV09SRF9SRUNPVkVSRUQiOmZhbHNlLCJHQU1JRklDQVRJT05fSUQiOiI2MmY1OGU4MWMzMDQxNTcyZWQ1NTRmZTUiLCJJU19LSURTIjoiZmFsc2UiLCJBQ0NPVU5UIjoiNTExMzgzNTIwO3Bob25lLWNvbnRleHQ9Y2xhcm8ucGUifX19fQ.Qr6uiecNvSPumgLK_V0ypXp40nhAf9vfG62tiMLNDNI",
+    "method": "GET",
+    "headers": null,
+    "body": null,
+    "success_response": "{\n\u00a0\u00a0\u00a0 \"entry\": {\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"authpn\": \"tataelxsi\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"authpt\": \"vofee7ohhecai\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"device_category\": \"stb\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"device_type\": \"ptv\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"device_model\": \"androidTV\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"device_manufacturer\": \"ZTE\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"HKS\": \"63a9767c9fe30\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"api_version\": \"v5.93\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"region\": \"peru\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"device_so\": \"Android 12\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"serial_id\": \"ZTEATV41200122363\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"format\": \"json\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"user_id\": \"69798008\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"device_name\": \"B866V2_AMX_ATV_PE\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"user_session\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzIwNTAwMDAsImV4cCI6MTY3NzIzNDMwMCwidXNyIjp7IldHIjp7IlBBSVMiOiJQRSIsIkNPVU5UUllDT0RFX0lQIjoiUEUiLCJSRUdJT04iOiI3NDkiLCJOT01CUkVfUkVHSU9OIjoicGVydSIsIklESU9NQSI6IkVTUCIsIklEIjoiMjciLCJpcFJlbW90ZUFkZHJlc3MiOiIzLjIyNi4yMTIuMTIifSwidXN1YXJpbyI6eyJzdG9yYWdlIjp7IkFDVElWTyI6IkgiLCJJRF9VU1VBUklPIjoiNjk3OTgwMDgiLCJVU0VSTkFNRSI6IjUxMTM4MzUycGVAY3YuY29tIiwiRU1BSUwiOiI1MTEzODM1MnBlQGN2LmNvbSIsIk5PTUJSRSI6IlZUUnFhYSBxdWVzdGlvbiIsIkFQRUxMSURPIjoiTk4gTk4iLCJQSU5fUEFSRU5UQUwiOm51bGwsIkNMQVNJRklDQUNJT05fUEFSRU5UQUwiOiIzMCIsIlRFUk1JTk9TX0FDRVBUQURPUyI6IlMiLCJUSVBPX1VTVUFSSU8iOiJDUEVOT1ZJUCIsIlFVSUVSRV9BRFVMVE8iOm51bGwsIklEX1NLSU4iOiIwIiwiSURfU1BDIjpudWxsLCJOT01CUkVfU0tJTiI6bnVsbCwiRVNUQURPIjpudWxsLCJFU1RBRE9fQUNUSVZPIjoiMSIsIkVYVF9JRF9VU1VfUEFSVE5FUiI6IjUxMTM4MzUycGVAY3YuY29tIiwiRVhUX0lEX1NFU19QQVJUTkVSIjpudWxsLCJFWFRfSURfVVNVX0FDQ09VTlQiOm51bGwsIkVYVF9JRF9VU1VfUFJPRFVDVCI6bnVsbCwiVVNFUl9QUk9EVUNUIjoiMjYwMCIsIlVTRVJfUFJPRFVDVF9UWVBFIjpudWxsLCJNRURJT19QQUdPX1NVU0NfR0FURVdBWV9OQU1FIjoiaHViZmFjdHVyYWZpamFnYXRlIiwiUEFJU19VU1VBUklPIjoiUEUiLCJSRUdJT05fVVNVQVJJTyI6InBlcnUiLCJTVUJSRUdJT05fVVNVQVJJTyI6bnVsbCwiQ0lVREFEX1VTVUFSSU8iOm51bGwsIklEX01FRElPX1BBR09fTU9ORURBIjoiMTE0IiwiSURfTUVESU9fUEFHTyI6IjQ4IiwiTk9NQlJFX01FRElPX1BBR08iOiJIdWIgRmFjdHVyYSBGaWphIiwiTU9ORURBIjoiUEUiLCJNRURJT19QQUdPX0dBVEVXQVlfTkFNRSI6Imh1YmZhY3R1cmFmaWphZ2F0ZSIsIkZFQ0hBX05BQ0lNSUVOVE8iOm51bGwsIkZFQ0hBX0FMVEEiOiIwNC1BVUctMjIiLCJMT0dJTl9GRUNIQSI6bnVsbCwiUkVEU09DSUFMTkVUV09SSyI6bnVsbCwiSURfVVNVQVJJT19TT0NJQUwiOm51bGwsIkVYVFJBX0RBVEEiOm51bGwsIlNPQ0lBTF9ORVRXT1JLUyI6W3siaWRfdXN1YXJpbyI6IjY5Nzk4MDA4IiwiaWRfdXN1YXJpb19zb2NpYWwiOiI2MmY1OGU4MWMzMDQxNTcyZWQ1NTRmZTUiLCJyZWRzb2NpYWwiOiJJTVVTSUNBIiwiZXh0cmFfZGF0YSI6bnVsbH1dLCJTRVNJT05fRkVDSEEiOjE2NzIwNTAzMDAsIkNPVU5URVJfVkFMSURfRU1BSUwiOjAsIlBBUkVOVF9JRCI6IjY5Nzk4MDA4IiwiQURNSU4iOnRydWUsIkZBQ0VCT09LX0lEIjpudWxsLCJQUk9GSUxFX0dST1VQX0NSRUFURUQiOmZhbHNlLCJQQVNTV09SRF9SRUNPVkVSRUQiOmZhbHNlLCJHQU1JRklDQVRJT05fSUQiOiI2MmY1OGU4MWMzMDQxNTcyZWQ1NTRmZTUiLCJJU19LSURTIjoiZmFsc2UiLCJBQ0NPVU5UIjoiNTExMzgzNTIwO3Bob25lLWNvbnRleHQ9Y2xhcm8ucGUifX19fQ.Qr6uiecNvSPumgLK_V0ypXp40nhAf9vfG62tiMLNDNI\"\n\u00a0\u00a0\u00a0 },\n\u00a0\u00a0\u00a0 \"response\": {\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"WG\": {\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"PAIS\": \"PE\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"COUNTRYCODE_IP\": \"PE\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"REGION\": \"749\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"NOMBRE_REGION\": \"peru\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"IDIOMA\": \"ESP\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"ID\": \"27\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"ipRemoteAddress\": \"3.226.212.12\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 },\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"usuario\": {\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"storage\": {\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"ACTIVO\": \"H\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"ID_USUARIO\": \"69798008\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"USERNAME\": \"51138352pe@cv.com\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"EMAIL\": \"51138352pe@cv.com\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"NOMBRE\": \"VTRqaa question\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"APELLIDO\": \"NN NN\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"PIN_PARENTAL\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"CLASIFICACION_PARENTAL\": \"30\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"TERMINOS_ACEPTADOS\": 1,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"TIPO_USUARIO\": \"CPENOVIP\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"QUIERE_ADULTO\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"ID_SKIN\": \"0\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"ID_SPC\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"NOMBRE_SKIN\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"ESTADO\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"ESTADO_ACTIVO\": \"1\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"EXT_ID_USU_PARTNER\": \"51138352pe@cv.com\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"EXT_ID_SES_PARTNER\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"EXT_ID_USU_ACCOUNT\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"EXT_ID_USU_PRODUCT\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"USER_PRODUCT\": \"2600\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"USER_PRODUCT_TYPE\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"MEDIO_PAGO_SUSC_GATEWAY_NAME\": \"hubfacturafijagate\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"PAIS_USUARIO\": \"PE\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"REGION_USUARIO\": \"peru\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"SUBREGION_USUARIO\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"CIUDAD_USUARIO\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"ID_MEDIO_PAGO_MONEDA\": \"114\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"ID_MEDIO_PAGO\": \"48\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"NOMBRE_MEDIO_PAGO\": \"Hub Factura Fija\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"MONEDA\": \"PE\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"MEDIO_PAGO_GATEWAY_NAME\": \"hubfacturafijagate\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"FECHA_NACIMIENTO\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"FECHA_ALTA\": \"04-AUG-22\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"LOGIN_FECHA\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"REDSOCIALNETWORK\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"ID_USUARIO_SOCIAL\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"EXTRA_DATA\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"SOCIAL_NETWORKS\": [{\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"id_usuario\": \"69798008\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"id_usuario_social\": \"62f58e81c3041572ed554fe5\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"redsocial\": \"IMUSICA\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"extra_data\": null\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 }],\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"SESION_FECHA\": 1672050300,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"COUNTER_VALID_EMAIL\": 0,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"PARENT_ID\": \"69798008\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"ADMIN\": true,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"FACEBOOK_ID\": null,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"PROFILE_GROUP_CREATED\": false,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"PASSWORD_RECOVERED\": false,\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"GAMIFICATION_ID\": \"62f58e81c3041572ed554fe5\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"IS_KIDS\": \"false\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"ACCOUNT\": \"511383520;phone-context=claro.pe\",\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 \"USER_TOKEN\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NzIwNTAwMDYsImV4cCI6MTY3NzIzNDMwNiwidXNyIjp7InVzZXJfaWQiOiI2OTc5ODAwOCIsInVzZXJfdHlwZSI6IkNQRU5PVklQIiwidXNlcm5hbWUiOiI1MTEzODM1MnBlQGN2LmNvbSIsImVtYWlsIjoiNTExMzgzNTJwZUBjdi5jb20iLCJmaXJzdG5hbWUiOiJWVFJxYWEgcXVlc3Rpb24iLCJsYXN0bmFtZSI6Ik5OIE5OIiwiY291bnRyeV9jb2RlIjoiUEUiLCJyZWdpb24iOiJwZXJ1IiwiYWNjZXB0ZWRfdGVybXMiOjEsImdhbWlmaWNhdGlvbl9pZCI6IjYyZjU4ZTgxYzMwNDE1NzJlZDU1NGZlNSIsInBhcmVudF9pZCI6IjY5Nzk4MDA4IiwiYWNjb3VudCI6IjUxMTM4MzUyMDtwaG9uZS1jb250ZXh0PWNsYXJvLnBlIiwiYWRtaW4iOnRydWV9fQ.ORuJZ8aW32s_fMUfgEan8bs3FHyLeP_NgcuYsKt4isY\"\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 }\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 }\n\u00a0\u00a0\u00a0 },\n\u00a0\u00a0\u00a0 \"status\": 200,\n\u00a0\u00a0\u00a0 \"msg\": \"OK\"\n}",
+    "error_response": {
+      "entry": {
+        "authpt": "12e4i8l6a581a",
+        "authpn": "amco",
+        "api_version": "v5.85",
+        "user_id": "21798831",
+        "device_type": "Workstation",
+        "device_model": "sony",
+        "device_manufacturer": "sony",
+        "device_category": "tv",
+        "region": "mexico",
+        "format": "json"
+      },
+      "status": 422,
+      "msg": "ERROR",
+      "errors": {
+        "error": ["error_params:parameter HKS missing"],
+        "code": "USR_USR_00004"
+      }
+    },
+    "api_response": null,
+    "similarity_result": null
+  }
+]
