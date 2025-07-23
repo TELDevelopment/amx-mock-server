@@ -10,7 +10,7 @@ import models
 app = FastAPI()
 
 # Select LLM 
-llm_provider = models.LLMProvider.GEMINI
+llm_provider = models.LLMProvider.ANTHROPIC
 llm_client = models.LLMClient(llm_provider)
 
 # Logging
@@ -118,7 +118,7 @@ async def match_api(input_data: URLInput):
         logger.info(f"API Base URL: {api_base_url}")
         logger.info(f"input_base_url: {input_base_url}")
 
-        if input_url == api['api_url']:
+        if input_base_url == api_base_url:
             # URL matched
             logger.info(f"Matching API found: {api['api_url']}")
             success_entry = api["success_response"]["entry"]
@@ -128,7 +128,8 @@ async def match_api(input_data: URLInput):
             logger.info(f"Input params: {input_params}")
 
             # if input_params.keys() in success_entry.keys():
-            if set(input_params.keys()).issubset(success_entry.keys()):
+            # if set(input_params.keys()).issubset(success_entry.keys()):
+            if input_params == success_entry:
                 logger.info(f"Success entry matched: {success_entry}")
                 return api["success_response"]
             elif input_params == error_entry:
@@ -145,3 +146,4 @@ async def match_api(input_data: URLInput):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("main:app", host="0.0.0.0", port=8001, reload=True)
+    # uvicorn main:app --reload --port 8001
